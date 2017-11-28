@@ -1,0 +1,15 @@
+{
+    "name": "mindplant/theme-bare",
+    "description": "SASS based Magento 2 theme",
+    "version": "0.0.1",
+    "license": "MIT",
+    "type": "magento2-theme",
+    "require": {
+        "magento/framework": "101.0.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
