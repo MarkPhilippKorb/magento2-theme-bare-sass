@@ -2,7 +2,7 @@
 //  Variables
 //  _____________________________________________
 
-$minicart__border-color       : $color-gray80;
+$minicart__border-color       : $color-gray;
 $minicart__padding-horizontal : $indent__base;
 
 $minicart-qty__height         : 24px;
@@ -359,9 +359,9 @@ $minicart-qty__height         : 24px;
                 $_icon-font-size         : 28px,
                 $_icon-font-line-height  : 28px,
                 $_icon-font-text-hide    : true,
-                $_icon-font-color        : $color-gray19,
-                $_icon-font-color-hover  : $color-gray19,
-                $_icon-font-color-active : $color-gray19
+                $_icon-font-color        : $color-gray-dark,
+                $_icon-font-color-hover  : $color-gray-dark,
+                $_icon-font-color-active : $color-gray-dark
             );
         }
 

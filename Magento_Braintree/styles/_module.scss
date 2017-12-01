@@ -2,7 +2,7 @@
 //  Variables
 //  _____________________________________________
 
-$braintree-input-border__color              : $color-gray76;
+$braintree-input-border__color              : $color-gray;
 
 $braintree-error__color                     : $color-red;
 $braintree-focus__color                     : $color-blue2;
@@ -110,7 +110,7 @@ $braintree-paypal-account__padding-vertical : 15px;
     }
 
     .payment-method-description {
-        color: $color-gray34;
+        color: $color-gray-dark;
     }
 }
 
@@ -170,7 +170,7 @@ $braintree-paypal-account__padding-vertical : 15px;
     }
 
     .braintree-paypal-account {
-        border-color: $color-gray80;
+        border-color: $color-gray;
         border-style: solid;
         border-width: 1px 0;
         display: inline-block;

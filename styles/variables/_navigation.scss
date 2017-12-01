@@ -13,8 +13,8 @@ $navigation-level0-item__padding                         : 8px $indent__xl 8px 1
 $navigation-level0-item__text-transform                  : uppercase !default;
 
 $navigation-level0-item__background                      : '' !default;
-$navigation-level0-item__border                          : 1px solid $color-gray82 !default;
-$navigation-level0-item__color                           : $color-gray34 !default;
+$navigation-level0-item__border                          : 1px solid $color-gray !default;
+$navigation-level0-item__color                           : $color-gray-dark !default;
 $navigation-level0-item__text-decoration                 : none !default;
 
 $navigation-level0-item__active__background              : '' !default;
@@ -36,7 +36,7 @@ $submenu-item__line-height                               : 1.3 !default;
 
 $submenu-item__background                                : '' !default;
 $submenu-item__border                                    : '' !default;
-$submenu-item__color                                     : $color-gray34 !default;
+$submenu-item__color                                     : $color-gray-dark !default;
 $submenu-item__text-decoration                           : '' !default;
 
 $submenu-item__active__background                        : '' !default;
@@ -62,7 +62,7 @@ $navigation-desktop-level0-item__padding                 : 0 12px !default;
 
 $navigation-desktop-level0-item__background              : '' !default;
 $navigation-desktop-level0-item__border                  : '' !default;
-$navigation-desktop-level0-item__color                   : $color-gray34 !default;
+$navigation-desktop-level0-item__color                   : $color-gray-dark !default;
 $navigation-desktop-level0-item__text-decoration         : none !default;
 
 $navigation-desktop-level0-item__hover__background       : '' !default;

@@ -26,7 +26,7 @@ $checkout-shipping-item-mobile__padding         : 0 0 15px;
 $checkout-shipping-item-mobile__margin          : $checkout-shipping-item-mobile__padding;
 $checkout-shipping-item-mobile__active__padding : 15px ($indent__l + 5px) 15px 18px;
 
-$checkout-shipping-item-before__border-color    : $color-gray80;
+$checkout-shipping-item-before__border-color    : $color-gray;
 $checkout-shipping-item-before__height          : calc(100% - 20px);
 
 $checkout-shipping-method__border               : $checkout-step-title__border;
@@ -240,9 +240,9 @@ $checkout-shipping-method__padding              : $indent__base;
                 $_icon-font-size         : 28px,
                 $_icon-font-line-height  : 28px,
                 $_icon-font-text-hide    : true,
-                $_icon-font-color        : $color-gray19,
-                $_icon-font-color-hover  : $color-gray19,
-                $_icon-font-color-active : $color-gray19
+                $_icon-font-color        : $color-gray-dark,
+                $_icon-font-color-hover  : $color-gray-dark,
+                $_icon-font-color-active : $color-gray-dark
             );
             margin: 0;
             position: absolute;

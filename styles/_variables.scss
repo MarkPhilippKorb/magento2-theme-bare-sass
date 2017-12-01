@@ -38,8 +38,8 @@ $h1__margin-bottom__desktop                                   : $indent__xl !def
 //  ---------------------------------------------
 
 //  Header
-$header-icons-color                                           : $color-gray56 !default;
-$header-icons-color-hover                                     : $color-gray20 !default;
+$header-icons-color                                           : $color-gray-dark !default;
+$header-icons-color-hover                                     : $color-gray !default;
 
 //
 //  Icons
@@ -62,7 +62,7 @@ $checkout-tooltip-content__background-color                   : $color-gray-ligh
 $checkout-tooltip-content__padding                            : 12px !default;
 $checkout-tooltip-content__border-width                       : 1px !default;
 
-$checkout-tooltip-content__border-color                       : $color-gray60 !default;
+$checkout-tooltip-content__border-color                       : $color-gray !default;
 $checkout-tooltip-content__font-size                          : $font-size__base !default;
 $checkout-tooltip-content__width                              : 270px !default;
 $checkout-tooltip-content__active__border-color               : darken($checkout-tooltip-content__border-color, 20%) !default;
@@ -72,7 +72,7 @@ $checkout-billing-address-details__line-height                : 27px !default;
 
 // Checkout
 $checkout-step-title__padding                                 : $indent__s !default;
-$checkout-step-title__border                                  : $border-width__base solid $color-gray80 !default;
+$checkout-step-title__border                                  : $border-width__base solid $color-gray !default;
 $checkout-step-title__font-size                               : 26px !default;
 $checkout-step-title__font-weight                             : $font-weight__light !default;
 $checkout-sidebar__columns                                    : 4 !default;

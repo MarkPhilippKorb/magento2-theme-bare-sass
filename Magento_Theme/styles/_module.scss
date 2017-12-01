@@ -21,8 +21,8 @@ $message-global-caution-link__color-active : $link__active__color;
 
 //  Header
 $header__background-color                  : false;
-$header-icons-color                        : $color-gray56;
-$header-icons-color-hover                  : $color-gray20;
+$header-icons-color                        : $color-gray;
+$header-icons-color-hover                  : $color-gray-dark;
 
 $addto-color                               : $text__color__muted;
 $addto-hover-color                         : $primary__color;
@@ -90,7 +90,7 @@ body {
     }
 
     &:focus {
-        @include lib-css(background, $color-gray94);
+        @include lib-css(background, $color-gray-light);
         @include lib-css(padding, $indent__s);
         box-sizing: border-box;
         left: 0;

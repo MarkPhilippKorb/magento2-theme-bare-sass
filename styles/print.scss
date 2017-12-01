@@ -32,7 +32,7 @@
     // Don't show links for images, or javascript/internal links
     pre,
     blockquote {
-        border: 1px solid $color-gray60;
+        border: 1px solid $color-gray-dark;
         page-break-inside: avoid;
     }
 
@@ -50,7 +50,7 @@
         table-layout: fixed;
 
         & > tfoot > tr:first-child {
-            border-top: 1px solid $color-gray60;
+            border-top: 1px solid $color-gray-dark;
         }
     }
 

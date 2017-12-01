@@ -79,7 +79,7 @@ $active-nav-indent: 54px;
         width: calc(100% - #{$active-nav-indent});
 
         .switcher {
-            border-top: 1px solid $color-gray82;
+            border-top: 1px solid $color-gray;
             font-size: 1.6rem;
             font-weight: 700;
             margin: 0;
@@ -91,7 +91,7 @@ $active-nav-indent: 54px;
             }
 
             &:last-child {
-                border-bottom: 1px solid $color-gray82;
+                border-bottom: 1px solid $color-gray;
             }
         }
 
@@ -127,20 +127,20 @@ $active-nav-indent: 54px;
 
         .header.links {
             @include lib-list-reset-styles();
-            border-bottom: 1px solid $color-gray82;
+            border-bottom: 1px solid $color-gray;
 
             li {
                 font-size: 1.6rem;
                 margin: 0;
 
                 &.greet.welcome {
-                    border-top: 1px solid $color-gray82;
+                    border-top: 1px solid $color-gray;
                     font-weight: 700;
                     padding: 0.8rem $indent__base;
                 }
 
                 > a {
-                    border-top: 1px solid $color-gray82;
+                    border-top: 1px solid $color-gray;
                 }
             }
 

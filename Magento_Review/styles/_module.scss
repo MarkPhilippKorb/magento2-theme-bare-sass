@@ -209,7 +209,7 @@ $reviews-indent-desktop: 30px;
 
 .review {
     &-toolbar {
-        border-top: 1px solid $color-gray79;
+        border-top: 1px solid $color-gray;
         margin: 0 0 $indent__base;
         text-align: center;
 
@@ -218,7 +218,7 @@ $reviews-indent-desktop: 30px;
         }
 
         .pages {
-            border-bottom: 1px solid $color-gray79;
+            border-bottom: 1px solid $color-gray;
             display: block;
             padding: $indent__base 0;
             text-align: center;
@@ -268,7 +268,7 @@ $reviews-indent-desktop: 30px;
 
     &-item {
         @include lib-clearer();
-        border-bottom: 1px solid $color-gray79;
+        border-bottom: 1px solid $color-gray;
         margin: 0;
         padding: $indent__base 0;
 
