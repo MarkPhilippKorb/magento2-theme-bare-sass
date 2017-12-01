@@ -7,14 +7,14 @@
 //  ---------------------------------------------
 
 $modal-title__color                   : $text__color;
-$modal-title__border                  : 1px solid $color-gray-light5;
+$modal-title__border                  : 1px solid $color-gray-light;
 
 $modal-popup-title__font-size         : 26px;
 $modal-popup-title-mobile__font-size  : $font-size__base;
 $modal-popup-breakpoint-screen__m     : $screen__m;
 
 $modal-slide__first__indent-left      : 44px;
-$modal-slide-mobile__background-color : $color-gray-light01;
+$modal-slide-mobile__background-color : $color-gray-light;
 $modal-overlay__background-color      : fade($color-gray-dark, 55%);
 
 $modal-action-close__color            : $primary__color;

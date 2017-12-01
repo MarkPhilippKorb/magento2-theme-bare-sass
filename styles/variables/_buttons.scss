@@ -25,12 +25,12 @@ $button__disabled__opacity                    : 0.5 !default;
 //  Default                                   = secondary button
 $button__color                                : $primary__color !default;
 $button__background                           : $color-gray-light !default;
-$button__border                               : 1px solid $color-gray-darken2 !default;
+$button__border                               : 1px solid $color-gray-light !default;
 $button__gradient-color-start                 : false !default;
 $button__gradient-color-end                   : false !default;
 
-$button__hover__color                         : $color-gray-darken3 !default;
-$button__hover__background                    : $color-gray-darken1 !default;
+$button__hover__color                         : $color-gray-dark !default;
+$button__hover__background                    : $color-gray-light !default;
 $button__hover__border                        : $button__border !default;
 $button__hover__gradient-color-start          : false !default;
 $button__hover__gradient-color-end            : false !default;

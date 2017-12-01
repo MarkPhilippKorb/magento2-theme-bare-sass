@@ -6,7 +6,7 @@ $block-auth__dropdown__padding          : $indent__m;
 $block-auth__dropdown__background-color : $color-white;
 $block-auth__or-label__size             : 36px;
 $block-auth__width                      : 0;
-$block-auth__border                     : 1px solid $color-gray-light3;
+$block-auth__border                     : 1px solid $color-gray-light;
 
 .authentication-dropdown {
     box-sizing: border-box;
@@ -79,7 +79,7 @@ $block-auth__border                     : 1px solid $color-gray-light3;
         }
 
         & + .block {
-            border-top: 1px solid $color-gray-light5;
+            border-top: 1px solid $color-gray-light;
             margin-top: $indent__xl;
             padding-top: $indent__xl;
             position: relative;
@@ -90,10 +90,10 @@ $block-auth__border                     : 1px solid $color-gray-light3;
                 @include lib-css(margin, -($block-auth__or-label__size/2 + 1px) 0 0 -($block-auth__or-label__size / 2));
                 @include lib-css(min-width, $block-auth__or-label__size);
                 background: $color-white;
-                border: 1px solid $color-gray-light5;
+                border: 1px solid $color-gray-light;
                 border-radius: 50%;
                 box-sizing: border-box;
-                color: $color-gray-light5;
+                color: $color-gray-light;
                 content: attr(data-label);
                 display: inline-block;
                 left: 50%;
@@ -172,7 +172,7 @@ $block-auth__border                     : 1px solid $color-gray-light3;
         .block-authentication {
             @include lib-vendor-prefix-display(flex);
             @include lib-vendor-prefix-flex-direction(row);
-            border-top: 1px solid $color-gray-light5;
+            border-top: 1px solid $color-gray-light;
         }
 
         .block[class],
@@ -191,7 +191,7 @@ $block-auth__border                     : 1px solid $color-gray-light3;
             width: 50%;
 
             & + .block {
-                border-left: 1px solid $color-gray-light5;
+                border-left: 1px solid $color-gray-light;
                 border-top: 0;
                 margin: 0;
                 padding: $indent__s 0 0 $indent__xl;
