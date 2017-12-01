@@ -18,7 +18,7 @@ $navigation-level0-item__color                           : $color-gray34 !defaul
 $navigation-level0-item__text-decoration                 : none !default;
 
 $navigation-level0-item__active__background              : '' !default;
-$navigation-level0-item__active__border-color            : $color-orange-red1 !default;
+$navigation-level0-item__active__border-color            : $color-orange !default;
 $navigation-level0-item__active__border-style            : solid !default;
 $navigation-level0-item__active__border-width            : 0 0 0 8px !default;
 $navigation-level0-item__active__color                   : '' !default;
@@ -41,7 +41,7 @@ $submenu-item__text-decoration                           : '' !default;
 
 $submenu-item__active__background                        : '' !default;
 $submenu-item__active__border                            : 8px !default;
-$submenu-item__active__border-color                      : $color-orange-red1 !default;
+$submenu-item__active__border-color                      : $color-orange !default;
 $submenu-item__active__border-style                      : solid !default;
 $submenu-item__active__border-width                      : 0 0 0 $submenu-item__active__border !default;
 $submenu-item__active__color                             : '' !default;
@@ -71,7 +71,7 @@ $navigation-desktop-level0-item__hover__color            : $primary__color !defa
 $navigation-desktop-level0-item__hover__text-decoration  : $navigation-desktop-level0-item__text-decoration !default;
 
 $navigation-desktop-level0-item__active__background      : '' !default;
-$navigation-desktop-level0-item__active__border-color    : $color-orange-red1 !default;
+$navigation-desktop-level0-item__active__border-color    : $color-orange !default;
 $navigation-desktop-level0-item__active__border-style    : solid !default;
 $navigation-desktop-level0-item__active__border-width    : 0 0 3px !default;
 $navigation-desktop-level0-item__active__color           : $navigation-desktop-level0-item__hover__color !default;
@@ -103,7 +103,7 @@ $submenu-desktop-item__hover__color                      : $navigation-desktop-l
 $submenu-desktop-item__hover__text-decoration            : $navigation-desktop-level0-item__text-decoration !default;
 
 $submenu-desktop-item__active__background                : '' !default;
-$submenu-desktop-item__active__border-color              : $color-orange-red1 !default;
+$submenu-desktop-item__active__border-color              : $color-orange !default;
 $submenu-desktop-item__active__border-style              : solid !default;
 $submenu-desktop-item__active__border-width              : 0 0 0 3px !default;
 $submenu-desktop-item__active__color                     : '' !default;

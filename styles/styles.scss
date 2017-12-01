@@ -1,12 +1,20 @@
+
 // Mixins
 @import "mixins/media-queries";
+
+// Theme variables
+//
+//  Variables
+//  _____________________________________________
+
+
+
+@import 'variables';
 
 // Vendor libs
 @import 'vendor/normalize/lib'; // Normalize.css
 @import 'vendor/magento-ui/lib'; // Magento UI
 
-// Theme variables
-@import 'variables';
 
 // Reset default styles with magento-reset
 @import 'blocks/reset';

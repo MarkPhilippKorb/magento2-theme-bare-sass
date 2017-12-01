@@ -4,6 +4,10 @@
 
 $color-white             : #fff !default;
 $color-black             : #000 !default;
+$color-red             : #b30000 !default;
+$color-orange       : #ff5501 !default;
+
+
 
 $color-gray19            : #303030 !default;
 $color-gray20            : #333 !default;
@@ -55,16 +59,6 @@ $color-gray-darken2      : #cdcdcd !default;
 $color-gray-darken3      : #555 !default;
 $color-gray-darken4      : #494949 !default;
 
-$color-red9              : #ff0101 !default;
-$color-red10             : #e02b27 !default;
-$color-red11             : #b30000 !default;
-$color-red12             : #d10029 !default;
-
-$color-orange-red1       : #ff5501 !default;
-$color-orange-red2       : #ff5601 !default; // Legacy orange
-$color-orange-red3       : #ff5700 !default; // Legacy orange
-$color-orange-red4       : #fc5e10 !default; // Legacy orange
-
 $color-dark-green1       : #006400 !default;
 
 $color-blue1             : #1979c3 !default;
@@ -99,5 +93,5 @@ $secondary__color__light : lighten($secondary__color, 5%) !default;
 $page__background-color  : $color-white !default;
 $panel__background-color : darken($page__background-color, 6%) !default;
 
-$active__color           : $color-orange-red1 !default;
-$error__color            : $color-red10 !default;
+$active__color           : $color-orange !default;
+$error__color            : $color-red !default;
