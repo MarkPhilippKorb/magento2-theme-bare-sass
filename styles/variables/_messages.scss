@@ -28,8 +28,8 @@ $message__border-style               : false !default;
 $message__border-radius              : false !default;
 
 //  Information message
-$message-info__color                 : $color-brownie1 !default;
-$message-info__background            : $color-yellow-light1 !default;
+$message-info__color                 : $color-brown !default;
+$message-info__background            : $color-yellow-light !default;
 $message-info__border-color          : $message__border-color !default;
 
 $message-info-link__color            : $link__color !default;
@@ -37,9 +37,9 @@ $message-info-link__color-hover      : $link__hover__color !default;
 $message-info-link__color-active     : $link__hover__color !default;
 
 $message-info-icon                   : $icon-warning !default;
-$message-info-icon__color-inner      : $color-brownie-light1 !default;
+$message-info-icon__color-inner      : $color-brown-light !default;
 $message-info-icon__color-lateral    : $color-white !default;
-$message-info-icon__background       : $color-brownie1 !default;
+$message-info-icon__background       : $color-brown !default;
 $message-info-icon__top              : $message-icon__top !default;
 $message-info-icon__right            : $message-icon__right !default;
 $message-info-icon__bottom           : $message-icon__bottom !default;
@@ -133,7 +133,7 @@ $message-error-map                  : (
 ) !default;
 
 //  Success message
-$message-success__color              : $color-dark-green1 !default;
+$message-success__color              : $color-dark-green !default;
 $message-success__background         : $color-gray-light !default;
 $message-success__border-color       : $message__border-color !default;
 
@@ -142,9 +142,9 @@ $message-success-link__color-hover   : $link__hover__color !default;
 $message-success-link__color-active  : $link__hover__color !default;
 
 $message-success-icon                : $icon-checkmark !default;
-$message-success-icon__color-inner   : $color-dark-green1 !default;
+$message-success-icon__color-inner   : $color-dark-green !default;
 $message-success-icon__color-lateral : $color-white !default;
-$message-success-icon__background    : $color-dark-green1 !default;
+$message-success-icon__background    : $color-dark-green !default;
 $message-success-icon__top           : $message-icon__top !default;
 $message-success-icon__right         : $message-icon__right !default;
 $message-success-icon__bottom        : $message-icon__bottom !default;

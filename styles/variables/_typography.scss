@@ -80,13 +80,13 @@ $border-width__base             : 1px !default;
 //  Links
 //  ---------------------------------------------
 
-$link__color                    : $color-blue1 !default;
+$link__color                    : $color-blue !default;
 $link__text-decoration          : none !default;
 
 $link__visited__color           : $link__color !default;
 $link__visited__text-decoration : none !default;
 
-$link__hover__color             : $color-blue2 !default;
+$link__hover__color             : $color-blue-dark !default;
 $link__hover__text-decoration   : underline !default;
 
 $link__active__color            : $active__color !default;
@@ -96,7 +96,7 @@ $link__active__text-decoration  : underline !default;
 //  Focus
 //  ---------------------------------------------
 
-$focus__color                   : $color-sky-blue1 !default;
+$focus__color                   : $color-sky-blue !default;
 $focus__box-shadow              : 0 0 3px 1px $focus__color !default;
 
 //

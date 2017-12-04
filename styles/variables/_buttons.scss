@@ -49,14 +49,14 @@ $button-primary__padding                      : $button__padding !default;
 $button-primary__gradient                     : false !default;
 $button-primary__gradient-direction           : false !default;
 
-$button-primary__background                   : $color-blue1 !default;
-$button-primary__border                       : 1px solid $color-blue1 !default;
+$button-primary__background                   : $color-blue !default;
+$button-primary__border                       : 1px solid $color-blue !default;
 $button-primary__color                        : $color-white !default;
 $button-primary__gradient-color-start         : false !default;
 $button-primary__gradient-color-end           : false !default;
 
-$button-primary__hover__background            : $color-blue2 !default;
-$button-primary__hover__border                : 1px solid $color-blue2 !default;
+$button-primary__hover__background            : $color-blue-dark !default;
+$button-primary__hover__border                : 1px solid $color-blue-dark !default;
 $button-primary__hover__color                 : $button-primary__color !default;
 $button-primary__hover__gradient-color-start  : false !default;
 $button-primary__hover__gradient-color-end    : false !default;

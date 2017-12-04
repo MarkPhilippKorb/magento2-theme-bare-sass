@@ -29,7 +29,7 @@
 .fotorama-focus-overlay {
     &:after {
         @extend .fotorama-stretch;
-        background-color: $color-blue2;
+        background-color: $color-blue-dark;
         border-radius: inherit;
         content: '';
     }
