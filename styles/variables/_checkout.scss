@@ -1,0 +1,25 @@
+//  Checkout tooltip
+$checkout-tooltip-icon-arrow__font-size                       : 10px !default;
+$checkout-tooltip-icon__font-size                             : 21px !default;
+
+$checkout-tooltip-content-mobile__right                       : -($indent__s) !default;
+$checkout-tooltip-content-mobile__top                         : 30px + $checkout-tooltip-icon-arrow__font-size !default;
+$checkout-tooltip-content__background-color                   : $color-gray-light !default;
+$checkout-tooltip-content__padding                            : 12px !default;
+$checkout-tooltip-content__border-width                       : 1px !default;
+
+$checkout-tooltip-content__border-color                       : $color-gray !default;
+$checkout-tooltip-content__font-size                          : $font-size__base !default;
+$checkout-tooltip-content__width                              : 270px !default;
+$checkout-tooltip-content__active__border-color               : darken($checkout-tooltip-content__border-color, 20%) !default;
+$checkout-tooltip-icon-arrow__left                            : -( $checkout-tooltip-content__padding + $checkout-tooltip-icon-arrow__font-size - $checkout-tooltip-content__border-width) !default;
+
+$checkout-billing-address-details__line-height                : 27px !default;
+
+// Checkout
+$checkout-step-title__padding                                 : $indent__s !default;
+$checkout-step-title__border                                  : $border-width__base solid $color-gray !default;
+$checkout-step-title__font-size                               : 26px !default;
+$checkout-step-title__font-weight                             : $font-weight__light !default;
+$checkout-sidebar__columns                                    : 4 !default;
+$checkout-shipping-address__max-width                         : 500px !default;

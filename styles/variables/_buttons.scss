@@ -95,3 +95,18 @@ $button__padding__l                           : 14px 17px !default;
 $button__font-size__s                         : 11px !default;
 $button__line-height__s                       : $button__font-size__s + 1 !default;
 $button__padding__s                           : $indent__xs 8px !default;
+
+
+//
+//  Variables missing in extend.scss
+//  ---------------------------------------------
+
+$addto-color                                                  : $primary__color !default;
+$addto-hover-color                                            : $link__hover__color !default;
+
+
+//
+//  Button
+//  ---------------------------------------------
+
+$button__shadow                                               : inset 0 2px 1px rgba(0, 0, 0, 0.12) !default;

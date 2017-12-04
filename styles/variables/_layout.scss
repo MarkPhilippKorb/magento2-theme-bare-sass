@@ -33,3 +33,6 @@ $layout-column-main__width-3        : $layout-column__width - $layout-column__le
 //  Checkout columns width
 $layout-column-checkout__width-left : 3 !default;
 $layout-column-checkout__width-main : $layout-column__width - $layout-column-checkout__width-left !default;
+
+// Used in cart sidebar, Checkout sidebar, Tier Prices, My account navigation, Rating block background
+$sidebar__background-color                                    : $color-gray-light !default;

@@ -139,6 +139,8 @@ $heading__color__base           : false !default;
 $heading__font-style__base      : false !default;
 $heading__margin-top__base      : $indent__base !default;
 $heading__margin-bottom__base   : $indent__base !default;
+$h1__margin-bottom__desktop     : $indent__xl !default;
+
 
 $h1__font-size                  : ceil(($font-size__base * 1.85)) !default; // 26px
 $h1__font-color                 : $heading__color__base !default;
