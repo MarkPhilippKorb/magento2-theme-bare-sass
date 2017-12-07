@@ -11,7 +11,7 @@ $font-path                      : "../../fonts/" !default;
 $icons__font-path               : "../fonts/Blank-Theme-Icons/Blank-Theme-Icons" !default;
 
 //  Names
-$icons__font-name               : 'icons-blank-theme' !default; // ToDo UI                                         : we need to rename (it shouldn't use blank theme name) or move icon fonts to blank theme
+$icons__font-name               : 'icons-blank-theme' !default; // ToDo UI: we need to rename (it shouldn't use blank theme name) or move icon fonts to blank theme
 
 //  Font families
 $font-family-name__base         : 'Open Sans' !default;
@@ -73,31 +73,9 @@ $indent__xs                     : $indent__base / 4 !default; // 5px
 //  Borders
 //  ---------------------------------------------
 
-$border-color__base             : darken($page__background-color, 18%) !default;
+$border-color__base             : $module-dark__border-color !default;
 $border-width__base             : 1px !default;
 
-//
-//  Links
-//  ---------------------------------------------
-
-$link__color                    : $color-blue !default;
-$link__text-decoration          : none !default;
-
-$link__visited__color           : $link__color !default;
-$link__visited__text-decoration : none !default;
-
-$link__hover__color             : $color-blue-dark !default;
-$link__hover__text-decoration   : underline !default;
-
-$link__active__color            : $active__color !default;
-$link__active__text-decoration  : underline !default;
-
-//
-//  Focus
-//  ---------------------------------------------
-
-$focus__color                   : $color-sky-blue !default;
-$focus__box-shadow              : 0 0 3px 1px $focus__color !default;
 
 //
 //  Lists
