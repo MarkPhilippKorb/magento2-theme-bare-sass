@@ -1,6 +1,3 @@
-$toolbar-mode-icon-font-size: 24px !default;
-$toolbar-element-background : $panel__background-color !default;
-
 .page-products {
     .columns {
         position: relative;
@@ -158,7 +155,7 @@ $toolbar-element-background : $panel__background-color !default;
         &:not(.active) {
             &:hover {
                 color: $text__color__muted;
-                background: darken($toolbar-element-background, 7%);
+                background: $toolbar-element-background;
             }
         }
 
