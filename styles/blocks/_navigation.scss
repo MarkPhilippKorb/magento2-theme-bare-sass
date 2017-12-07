@@ -297,4 +297,8 @@ $active-nav-indent: 54px;
             display: inline-block;
         }
     }
+	.navigation li.ui-menu-item{
+		margin: 0;
+	}
+	
 }
