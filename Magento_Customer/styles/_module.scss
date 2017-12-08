@@ -1,25 +1,3 @@
-//
-//  Variables
-//  _____________________________________________
-
-$account-nav-background              : $sidebar__background-color;
-$account-nav-color                   : false;
-
-$account-nav-current-border          : 3px solid transparent;
-$account-nav-current-border-color    : $color-orange;
-$account-nav-current-color           : false;
-$account-nav-current-font-weight     : $font-weight__semibold;
-
-$account-nav-delimiter__border-color : $color-gray;
-
-$account-nav-item-hover              : $color-gray-light;
-
-$_password-default                   : $color-gray-light;
-$_password-weak                      : #ffafae;
-$_password-medium                    : #ffd6b3;
-$_password-strong                    : #c5eeac;
-$_password-very-strong               : #81b562;
-
 .login-container {
     .block {
         &-new-customer {
