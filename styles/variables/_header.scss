@@ -9,3 +9,14 @@ $header-icons-color-hover                                     : $color-gray !def
 
 $minicart-icons-color                                         : $header-icons-color !default;
 $minicart-icons-color-hover                                   : $header-icons-color-hover !default;
+
+
+//
+//  Block Search
+//  _____________________________________________
+
+$autocomplete__background-color  : $color-white;
+$autocomplete__border            : 1px solid $form-element-input__border-color;
+$autocomplete-item__border       : 1px solid $color-gray-light;
+$autocomplete-item__hover__color : $color-gray-light;
+$autocomplete-item-amount__color : $color-gray;
