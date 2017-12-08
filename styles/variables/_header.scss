@@ -20,3 +20,18 @@ $autocomplete__border            : 1px solid $form-element-input__border-color;
 $autocomplete-item__border       : 1px solid $color-gray-light;
 $autocomplete-item__hover__color : $color-gray-light;
 $autocomplete-item-amount__color : $color-gray;
+
+//  Header
+$header__background-color                  : false;
+$header-icons-color                        : $color-gray;
+$header-icons-color-hover                  : $color-gray-dark;
+
+$addto-color                               : $text__color__muted;
+$addto-hover-color                         : $primary__color;
+
+$minicart-icons-color                      : $header-icons-color;
+$minicart-icons-color-hover                : $header-icons-color-hover;
+
+$button__shadow                            : inset 0 2px 1px rgba(0, 0, 0, 0.12);
+
+$h1__margin-bottom__desktop                : $indent__xl;

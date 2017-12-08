@@ -207,3 +207,23 @@ $message-email__color                : $text__color !default;
 $message-email__background           : $message-info__background !default;
 $message-email__border-color         : $message-info__border-color !default;
 $message-email-link__color           : $message-info-link__color !default;
+
+
+
+
+//  Messages
+$message-global-note__background           : $color-yellow;
+$message-global-note__border-color         : $color-yellow-smoke;
+$message-global-note__color                : $text__color;
+
+$message-global-note-link__color           : $link__color;
+$message-global-note-link__color-hover     : $link__hover__color;
+$message-global-note-link__color-active    : $link__active__color;
+
+$message-global-caution__background        : $color-red;
+$message-global-caution__border-color      : none;
+$message-global-caution__color             : $color-white;
+
+$message-global-caution-link__color        : $link__color;
+$message-global-caution-link__color-hover  : $link__hover__color;
+$message-global-caution-link__color-active : $link__active__color;
