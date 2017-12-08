@@ -4,13 +4,17 @@
 @import 'variables/colors-applied';
 @import 'variables/icons';
 @import 'variables/typography';
+@import 'variables/responsive';
+@import 'variables/structure';
+@import 'variables/modals';
 
 // Specific variables
+@import 'variables/tooltips';// is referenced in other modules that trigger tooltips
+
 @import 'variables/actions-toolbar';
 @import 'variables/breadcrumbs';
 @import 'variables/buttons';
 @import 'variables/components';
-@import 'variables/checkout';
 @import 'variables/dropdowns';
 @import 'variables/email';
 @import 'variables/forms';
@@ -25,8 +29,6 @@
 @import 'variables/popups';
 @import 'variables/products';
 @import 'variables/rating';
-@import 'variables/responsive';
 @import 'variables/sections';
-@import 'variables/structure';
 @import 'variables/tables';
-@import 'variables/tooltips';
+@import 'variables/checkout';

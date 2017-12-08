@@ -1,30 +1,3 @@
-//
-//  Variables
-//  _____________________________________________
-
-$checkout-progress-bar__font-size                              : 18px;
-$checkout-progress-bar__font-weight                            : $font-weight__light;
-$checkout-progress-bar__margin                                 : $indent__base;
-
-$checkout-progress-bar-item__background-color                  : $color-gray-light;
-$checkout-progress-bar-item__border-radius                     : 6px;
-$checkout-progress-bar-item__color                             : $primary__color;
-$checkout-progress-bar-item__margin                            : $indent__s;
-$checkout-progress-bar-item__width                             : 185px;
-$checkout-progress-bar-item__active__background-color          : $color-orange;
-$checkout-progress-bar-item__complete__color                   : $link__color;
-
-$checkout-progress-bar-item-element__width                     : 38px;
-$checkout-progress-bar-item-element__height                    : $checkout-progress-bar-item-element__width;
-
-$checkout-progress-bar-item-element-inner__background-color    : $page__background-color;
-$checkout-progress-bar-item-element-inner__color               : $checkout-progress-bar-item__color;
-$checkout-progress-bar-item-element-outer-radius__width        : 6px;
-$checkout-progress-bar-item-element-inner__width               : $checkout-progress-bar-item-element__width - ($checkout-progress-bar-item-element-outer-radius__width * 2);
-$checkout-progress-bar-item-element-inner__height              : $checkout-progress-bar-item-element-inner__width;
-$checkout-progress-bar-item-element-inner__active__content     : $icon-checkmark;
-$checkout-progress-bar-item-element-inner__active__font-size   : 28px;
-$checkout-progress-bar-item-element-inner__active__line-height : 1;
 
 //
 //  Checkout Progress Bar

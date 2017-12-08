@@ -1,29 +1,3 @@
-//
-//  Variables
-//  _____________________________________________
-
-$checkout-tooltip__hover__z-index               : $tooltip__z-index;
-$checkout-tooltip-breakpoint__screen-m          : $modal-popup-breakpoint-screen__m;
-
-$checkout-tooltip-icon-arrow__font-size         : 10px;
-$checkout-tooltip-icon-arrow__left              : -( $checkout-tooltip-content__padding + $checkout-tooltip-icon-arrow__font-size - $checkout-tooltip-content__border-width);
-
-$checkout-tooltip-icon__color                   : $color-gray-light;
-$checkout-tooltip-icon__content                 : $icon-help;
-$checkout-tooltip-icon__font-size               : 24px;
-$checkout-tooltip-icon__hover__color            : $primary__color;
-
-$checkout-tooltip-content__background-color     : $color-gray-light;
-$checkout-tooltip-content__border-color         : $color-gray;
-$checkout-tooltip-content__border-width         : 1px;
-$checkout-tooltip-content__font-size            : $font-size__base;
-$checkout-tooltip-content__padding              : 12px;
-$checkout-tooltip-content__width                : 270px;
-$checkout-tooltip-content__active__border-color : darken($checkout-tooltip-content__border-color, 20%);
-
-$checkout-tooltip-content-mobile-popup__width   : 200px;
-$checkout-tooltip-content-mobile__right         : -($indent__s);
-$checkout-tooltip-content-mobile__top           : 30px + $checkout-tooltip-icon-arrow__font-size;
 
 //
 //  Common

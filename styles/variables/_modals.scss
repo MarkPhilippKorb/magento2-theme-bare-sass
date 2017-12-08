@@ -1,0 +1,57 @@
+//
+//  Lib -> Components -> Modals
+//  _____________________________________________
+
+//
+//  Variables
+//  ---------------------------------------------
+
+$modal__background-color                         : $color-white;
+$modal__box-shadow                               : 0 0 12px 2px rgba(0, 0, 0, 0.35);
+
+$modal-popup__indent-vertical                    : 5rem;
+$modal-popup__padding                            : 3rem;
+$modal-popup__width                              : 75%;
+$modal-popup__z-index                            : $modal__z-index;
+
+$modal-slide__first__indent-left                 : 14.8rem;
+$modal-slide__indent-left                        : 4.5rem;
+$modal-slide__padding                            : 2.6rem;
+$modal-slide__z-index                            : $modal__z-index;
+
+$modal-slide-header__padding-vertical            : 2.1rem;
+
+$modal-popup-confirm__width                      : 50rem;
+
+$modal-popup-image-box__border-color             : $color-gray;
+$modal-popup-image-box__max-width                : 78rem;
+
+$modal-popup-image-box-preview-image__max-height : 54rem;
+$modal-popup-image-box-preview__max-width        : calc(#{$modal-popup-image-box-preview-image__max-height} + #{(2 * $indent__base)});
+
+
+//
+//  Components -> Modals
+//  _____________________________________________
+
+//
+//  Variables
+//  ---------------------------------------------
+
+$modal-title__color                   : $text__color;
+$modal-title__border                  : 1px solid $color-gray-light;
+
+$modal-popup-title__font-size         : 26px;
+$modal-popup-title-mobile__font-size  : $font-size__base;
+$modal-popup-breakpoint-screen__m     : $screen__m;
+
+$modal-slide__first__indent-left      : 44px;
+$modal-slide-mobile__background-color : $color-gray-light;
+$modal-overlay__background-color      : fade($color-gray-dark, 55%);
+
+$modal-action-close__color            : $primary__color;
+$modal-action-close__font-size        : 32px;
+$modal-action-close__hover__color     : darken($primary__color, 10%);
+
+$modal-slide-action-close__padding    : $modal-slide-header__padding-vertical - 1rem $modal-popup__padding - 1rem;
+
