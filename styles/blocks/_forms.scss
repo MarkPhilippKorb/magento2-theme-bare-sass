@@ -111,7 +111,7 @@ select {
         @include lib-button-reset();
         @include lib-icon-font(
             $_icon-font-content     : $icon-calendar,
-            $_icon-font-color       : $primary__color__lighter,
+            $_icon-font-color       : $text__color__muted,
             $_icon-font-size        : $icon-calendar__font-size,
             $_icon-font-line-height : $icon-calendar__font-size,
             $_icon-font-display     : block,

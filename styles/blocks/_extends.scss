@@ -971,7 +971,7 @@
 //  ---------------------------------------------
 
 .abs-block-items-counter {
-    @include lib-css(color, $primary__color__lighter);
+    @include lib-css(color, $text__color__muted);
     @include lib-font-size(12px);
     white-space: nowrap;
 }
