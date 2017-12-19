@@ -1,19 +1,20 @@
 .message.info {
-    @include lib-message-icon-inner(info);
+    @include lib-message(info);
 }
 
 .message.error {
-    @include lib-message-icon-inner(error);
+    @include lib-message(error);
 }
 
 .message.warning {
-    @include lib-message-icon-inner(warning);
+    @include lib-message(warning);
 }
 
 .message.notice {
-    @include lib-message-icon-inner(notice);
+    @include lib-message(notice);
 }
 
 .message.success {
-    @include lib-message-icon-inner(success);
+    @include lib-message(success);
 }
+

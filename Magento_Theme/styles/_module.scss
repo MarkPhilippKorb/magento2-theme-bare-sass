@@ -79,7 +79,7 @@ body {
 
     &.noscript,
     &.cookie {
-        @include lib-message($_message-type: global-note);
+        @include lib-message-global();
         margin: 0;
     }
 
@@ -96,9 +96,7 @@ body {
     }
 
     &.demo {
-        @include lib-message($_message-type: global-caution);
-        margin-bottom: 0;
-        text-align: center;
+        @include lib-message-global();
     }
 }
 
