@@ -42,7 +42,6 @@ $message-info-link__color-active     : $link__hover__color !default;
 
 $message-info-icon                   : $icon-warning !default;
 $message-info-icon__color-inner      : $text__color !default;
-$message-info-icon__background       : $text__color !default;
 $message-info-icon__top              : $message-icon__top !default;
 $message-info-icon__right            : $message-icon__right !default;
 $message-info-icon__bottom           : $message-icon__bottom !default;
@@ -57,7 +56,6 @@ $message-info-map                   : (
     link__color-active               : $message-info-link__color-active,
     icon                             : $message-info-icon,
     icon__color-inner                : $message-info-icon__color-inner,
-    icon__background                 : $message-info-icon__background,
     icon__top                        : $message-info-icon__top,
     icon__right                      : $message-info-icon__right,
     icon__bottom                     : $message-info-icon__bottom,
@@ -68,7 +66,7 @@ $message-info-map                   : (
 
 //  Warning message
 $message-warning__color              : $message-info__color !default;
-$message-warning__background         : $message-info__background !default;
+$message-warning__background         : $color-yellow-light !default;
 $message-warning__border-color       : $message-info__border-color !default;
 
 $message-warning-link__color         : $message-info-link__color !default;
@@ -133,8 +131,8 @@ $message-error-map                  : (
 
 
 //  Success message
-$message-success__color              : $color-dark-green !default;
-$message-success__background         : $color-gray-light !default;
+$message-success__color              : $color-green-dark !default;
+$message-success__background         : $color-green-light !default;
 $message-success__border-color       : $message__border-color !default;
 
 $message-success-link__color         : $link__color !default;
@@ -142,7 +140,7 @@ $message-success-link__color-hover   : $link__hover__color !default;
 $message-success-link__color-active  : $link__hover__color !default;
 
 $message-success-icon                : $icon-checkmark !default;
-$message-success-icon__color-inner   : $color-dark-green !default;
+$message-success-icon__color-inner   : $color-green-dark !default;
 $message-success-icon__top           : $message-icon__top !default;
 $message-success-icon__right         : $message-icon__right !default;
 $message-success-icon__bottom        : $message-icon__bottom !default;
