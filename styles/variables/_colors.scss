@@ -14,17 +14,17 @@ $color-red              : #b30000 !default;
 $color-orange           : #ff5501 !default;
 $color-pink             : #fae5e5 !default;
 
+$color-yellow-light     : #fdf0d5 !default;
+$color-yellow           : #ffee9c !default;
+$color-yellow-smoke     : #d6ca8e !default;
+
+$color-green-light      : #d2f3d3 !default;
+$color-green-dark       : #006400 !default;
+
 $color-blue             : #1979c3 !default;
 $color-blue-dark        : #006bb4 !default;
 $color-sky-blue         : #68a8e0 !default;
 
-$color-dark-green       : #006400 !default;
-$color-brown            : #6f4400 !default;
-$color-brown-light      : #c07600 !default;
-
-$color-yellow-light     : #fdf0d5 !default;
-$color-yellow           : #ffee9c !default;
-$color-yellow-smoke     : #d6ca8e !default;
 
 
 
@@ -43,11 +43,11 @@ $brand_secondary__color         : $color-blue !default;
 
 // Module Colors
 
-$module__background-color : $color-gray-light !default;
-$module__border-color: $color-gray !default;
+$module__background-color       : $color-gray-light !default;
+$module__border-color           : $color-gray !default;
 
-$module-dark__background-color : $color-gray !default;
-$module-dark__border-color : $color-gray-dark !default;
+$module-dark__background-color  : $color-gray !default;
+$module-dark__border-color      : $color-gray-dark !default;
 
 
 // Page variables
