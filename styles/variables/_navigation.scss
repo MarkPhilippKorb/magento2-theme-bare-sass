@@ -84,7 +84,7 @@ $submenu-desktop__box-shadow                             : 0 $indent__xs $indent
 $submenu-desktop__font-size                              : '' !default;
 $submenu-desktop__font-weight                            : $font-weight__bold !default;
 $submenu-desktop__min-width                              : 230px !default;
-$submenu-desktop__padding                                : 15px 0 !default;
+$submenu-desktop__padding                                : 10px 0 15px !default;
 
 $submenu-desktop-plus                                    : true !default; // [true|false]
 $submenu-desktop-plus__size                              : 13px !default;
