@@ -363,7 +363,7 @@
 	            @if $submenu-desktop-plus == true {
 					li.parent{
 						position: relative;
-						a{
+						> a{
 							&:after{
 								content: '+';
 								display: block;
