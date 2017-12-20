@@ -407,8 +407,8 @@
                 }
 
                 .submenu {
-                    top: 0 !important;
-                    left: 100% !important;
+	                @include lib-css(top, -$_submenu-border-width !important);
+	                left: 100% !important;
                 }
 
                 .submenu-reverse {

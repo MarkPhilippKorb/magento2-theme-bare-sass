@@ -77,7 +77,7 @@ $navigation-desktop-level0-item__active__color           : $navigation-desktop-l
 $navigation-desktop-level0-item__active__text-decoration : $navigation-desktop-level0-item__text-decoration !default;
 
 $submenu-desktop__background                             : $page__background-color !default;
-$submenu-desktop__border-width                           : $border-width__base !default;
+$submenu-desktop__border-width                           : $border-width__base !default; // Has to be a single number, it is also used to counter set the top with of the submenu
 $submenu-desktop__border-style                           : solid !default;
 $submenu-desktop__border-color                           : $border-color__base !default;
 $submenu-desktop__box-shadow                             : 0 $indent__xs $indent__xs rgba(0, 0, 0, 0.19) !default;
