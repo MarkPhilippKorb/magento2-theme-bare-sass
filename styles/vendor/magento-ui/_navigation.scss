@@ -407,7 +407,8 @@
                 }
 
                 .submenu {
-	                @include lib-css(top, -$_submenu-border-width !important);
+	                top: 0 !important; // fallback to the lib-css
+	                @include lib-css(top, $submenu-desktop__border-offset);
 	                left: 100% !important;
                 }
 
