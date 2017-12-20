@@ -383,6 +383,9 @@
                     @include lib-css(color, $_submenu-item-color);
                     @include lib-css(padding, $_submenu-item-padding);
                     @include lib-css(text-decoration, $_submenu-item-text-decoration);
+	                border-color: transparent;
+	                @include lib-css(border-style, $_submenu-item__active__border-style); // Fixes text position on submenus when the active border is set
+	                @include lib-css(border-width, $_submenu-item__active__border-width); // Fixes text position on submenus when the active border is set
 
                     &:hover,
                     &.ui-state-focus {
