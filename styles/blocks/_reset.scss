@@ -1,1 +1,10 @@
-@include lib-magento-reset(); // Reset default styles with magento-reset
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+// Reset default styles with magento-reset
+@include lib-magento-reset(); 
