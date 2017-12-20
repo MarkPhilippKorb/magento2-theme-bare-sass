@@ -215,7 +215,6 @@
     $_nav-font-weight                         : $navigation-desktop__font-weight,
 
     $_nav-level0-item-line-height             : $navigation-desktop-level0-item__line-height,
-    $_nav-level0-item-margin                  : $navigation-desktop-level0-item__margin,
     $_nav-level0-item-padding                 : $navigation-desktop-level0-item__padding,
 
     $_nav-level0-item-background-color        : $navigation-desktop-level0-item__background,
@@ -297,9 +296,11 @@
         li.level0 {
             @include lib-css(border-top, none);
         }
-
+	    li.ui-menu-item{
+		    margin: 0;
+	    }
         .level0 {
-            @include lib-css(margin, $_nav-level0-item-margin);
+			margin: 0;
             display: inline-block;
             position: relative;
 
@@ -313,11 +314,11 @@
                 @include lib-css(border, $_nav-level0-item-border);
                 @include lib-css(color, $_nav-level0-item-color);
                 @include lib-css(line-height, $_nav-level0-item-line-height);
+                @include lib-css(height, $_nav-level0-item-line-height);
                 @include lib-css(padding, $_nav-level0-item-padding);
                 @include lib-css(text-decoration, $_nav-level0-item-text-decoration);
-                box-sizing: border-box;
+	            display: inline-block;
                 position: relative;
-
                 &:hover,
                 &.ui-state-focus {
                     @include lib-css(background, $_nav-level0-item-background-color-hover);
