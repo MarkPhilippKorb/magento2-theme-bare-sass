@@ -87,9 +87,10 @@ $submenu-desktop__font-weight                            : $font-weight__bold !d
 $submenu-desktop__min-width                              : 230px !default;
 $submenu-desktop__padding                                : 15px 0 !default;
 
-$submenu-desktop-arrow                                   : true !default; // [true|false]
-$submenu-desktop-arrow__size                             : 10px !default;
-$submenu-desktop-arrow__left                             : 20px !default;
+$submenu-desktop-plus                                    : true !default; // [true|false]
+$submenu-desktop-plus__size                              : 13px !default;
+$submenu-desktop-plus__right                             : 10px !default;
+$submenu-desktop-plus__top                               : 8px !default;
 
 $submenu-desktop-item__padding                           : 8px $indent__base !default;
 $submenu-desktop-item__background                        : '' !default;

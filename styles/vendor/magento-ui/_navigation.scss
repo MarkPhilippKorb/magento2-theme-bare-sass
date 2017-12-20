@@ -245,9 +245,10 @@
     $_submenu-min-width                       : $submenu-desktop__min-width,
     $_submenu-padding                         : $submenu-desktop__padding,
 
-    $_submenu-arrow                           : $submenu-desktop-arrow,
-    $_submenu-arrow-size                      : $submenu-desktop-arrow__size,
-    $_submenu-arrow-left                      : $submenu-desktop-arrow__left,
+    $_submenu-plus                            : $submenu-desktop-plus,
+    $_submenu-plus-size                       : $submenu-desktop-plus__size,
+    $_submenu-plus-right                      : $submenu-desktop-plus__right,
+    $_submenu-plus-top                        : $submenu-desktop-plus__top,
 
     $_submenu-item-padding                    : $submenu-desktop-item__padding,
     $_submenu-item-background-color           : $submenu-desktop-item__background,
@@ -357,15 +358,23 @@
                 padding: 0;
                 position: absolute;
                 z-index: 1;
-
-                @include _lib-submenu-arrow(
-                    $_submenu-arrow,
-                    $_bg     : $_submenu-background-color,
-                    $_border : $_submenu-border-color,
-                    $_size   : $_submenu-arrow-size,
-                    $_left   : $_submenu-arrow-left
-                );
-
+	
+	            @if $submenu-desktop-plus == true {
+					li.parent{
+						position: relative;
+						a{
+							&:after{
+								content: '+';
+								display: block;
+								font-size: $_submenu-plus-size;
+								position: absolute;
+								@include lib-css(top, $_submenu-plus-top);
+								@include lib-css(right, $_submenu-plus-right);
+							}
+						}
+					}
+	            }
+	            
                 a {
                     display: block;
                     line-height: inherit;
@@ -435,87 +444,3 @@
     }
 }
 
-//  Submenu arrow
-@mixin _lib-submenu-arrow(
-    $_submenu-arrow,
-    $_bg,
-    $_border,
-    $_size,
-    $_left
-){
-    @if $_submenu-arrow == true {
-        @if iscolor($_bg) and iscolor($_border) {
-            $_outer-size: $_size + 1;
-            $_outer-left: $_left - 1;
-            @include lib-css(margin-top, $_outer-size);
-
-            > ul {
-                @include lib-css(margin-top, $_outer-size);
-
-                &:before,
-                &:after {
-                    content: '';
-                    display: block;
-                    overflow: hidden;
-                    position: absolute;
-                }
-
-                &:before {
-                    @include lib-css(color, $_bg);
-                    @include lib-css(left, $_left);
-                    @include lib-css(top, -$_size*2);
-                    @include lib-arrow(up, $_size, $_bg);
-                    z-index: 4;
-                }
-
-                &:after {
-                    @include lib-arrow(up, $_outer-size, $_border);
-                    @include lib-css(color, $_border);
-                    @include lib-css(left, $_outer-left);
-                    @include lib-css(top, -$_outer-size*2);
-                    z-index: 3;
-                }
-            }
-        }
-
-        @if iscolor($_bg) and iscolor($_border) == false {
-            @include lib-css(margin-top, -$_size);
-
-            > ul {
-                @include lib-css(margin-top, $_size);
-
-                &:before {
-                    @include lib-arrow(up, $_size, $_bg);
-                    @include lib-css(color, $_bg);
-                    @include lib-css(left, $_left);
-                    @include lib-css(top, -$_size*2);
-                    content: '';
-                    display: block;
-                    overflow: hidden;
-                    position: absolute;
-                    z-index: 4;
-                }
-            }
-        }
-
-        @if iscolor($_border) and iscolor($_bg) == false {
-            @include lib-css(margin-top, -$_size);
-
-            > ul {
-                @include lib-css(margin-top, $_size);
-
-                &:before {
-                    @include lib-arrow(up, $_size, $_border);
-                    @include lib-css(color, $_border);
-                    @include lib-css(left, $_left);
-                    @include lib-css(top, -$_size*2);
-                    content: '';
-                    display: block;
-                    overflow: hidden;
-                    position: absolute;
-                    z-index: 4;
-                }
-            }
-        }
-    }
-}
