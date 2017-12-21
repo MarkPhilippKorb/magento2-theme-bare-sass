@@ -8,8 +8,10 @@
 
 $form-element-input-type                        : '' !default; // [input-text|select|textarea|input-radio|input-checkbox]
 $form-element-input__background                 : $color-white !default;
-$form-element-input__border-color               : $color-gray !default;
+$form-element-input__border-color               : $color-gray-darker !default;
 $form-element-input__border                     : 1px solid $form-element-input__border-color !default;
+$form-element-input__border-color-focus         : $color-sky-blue !default;
+$form-element-input__border-focus               : 1px solid $form-element-input__border-color-focus !default;
 $form-element-input__border-radius              : 1px !default;
 $form-element-input__height                     : 32px !default;
 $form-element-input__width                      : 100% !default;
@@ -25,7 +27,7 @@ $form-element-input__font-style                 : false !default;
 $form-element-input__line-height                : $line-height__base !default;
 
 //  Placeholder
-$form-element-input-placeholder__color          : $color-gray !default;
+$form-element-input-placeholder__color          : $text__color__muted !default;
 $form-element-input-placeholder__font-style     : $form-element-input__font-style !default;
 
 //  Disabled state
@@ -37,7 +39,7 @@ $form-element-input__disabled__font-style       : $form-element-input__font-styl
 
 //  Focus state
 $form-element-input__focus__background          : $form-element-input__background !default;
-$form-element-input__focus__border              : $form-element-input__border !default;
+$form-element-input__focus__border              : $form-element-input__border-focus !default;
 $form-element-input__focus__color               : $form-element-input__color !default;
 $form-element-input__focus__font-style          : $form-element-input__font-style !default;
 
