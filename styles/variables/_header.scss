@@ -1,11 +1,12 @@
 //
 //  Header variables
 //  _____________________________________________
+$header__background-color           : false !default;
 
 
 //  Header Icons
 $header-icons-color                 : $color-gray-dark !default;
-$header-icons-color-hover           : $color-gray !default;
+$header-icons-color-hover           : $brand__color !default;
 
 $minicart-icons-color               : $header-icons-color !default;
 $minicart-icons-color-hover         : $header-icons-color-hover !default;
@@ -15,23 +16,17 @@ $minicart-icons-color-hover         : $header-icons-color-hover !default;
 //  Block Search
 //  _____________________________________________
 
-$autocomplete__background-color     : $color-white;
-$autocomplete__border               : 1px solid $form-element-input__border-color;
-$autocomplete-item__border          : 1px solid $color-gray-light;
-$autocomplete-item__hover__color    : $color-gray-light;
-$autocomplete-item-amount__color    : $color-gray;
+$autocomplete__background-color     : $color-white !default;
+$autocomplete__border               : $form-element-input__border !default;
+$autocomplete-item__border          : $form-element-input__border !default;
+$autocomplete-item__hover__color    : $form-element-input__border-color-focus !default;
+$autocomplete-item-amount__color    : $color-gray !default;
 
-//  Header
-$header__background-color           : false;
-$header-icons-color                 : $color-gray;
-$header-icons-color-hover           : $color-gray-dark;
+//
+//  Mini Cart
+//  _____________________________________________
 
-$addto-color                        : $text__color__muted;
-$addto-hover-color                  : $primary__color;
+$minicart__border-color       : $module-dark__border-color;
+$minicart__padding-horizontal : $indent__base;
 
-$minicart-icons-color               : $header-icons-color;
-$minicart-icons-color-hover         : $header-icons-color-hover;
-
-$button__shadow                     : inset 0 2px 1px rgba(0, 0, 0, 0.12);
-
-$h1__margin-bottom__desktop         : $indent__xl;
+$minicart-qty__height         : 24px;
