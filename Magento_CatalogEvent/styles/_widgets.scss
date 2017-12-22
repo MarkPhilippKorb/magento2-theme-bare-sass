@@ -149,7 +149,6 @@
 
                 .action {
                     &.show {
-                        @extend .abs-add-box-sizing;
                         display: block;
                         padding: 0;
 

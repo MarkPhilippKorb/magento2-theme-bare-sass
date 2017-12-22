@@ -441,7 +441,6 @@
         margin-left: -$indent__xs;
 
         .product-item {
-            @extend .abs-add-box-sizing;
             float: left;
             padding-left: $indent__xs;
         }

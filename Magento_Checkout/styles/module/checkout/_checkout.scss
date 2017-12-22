@@ -65,7 +65,6 @@
 
 @include min-screen($screen__m) {
     .opc-wrapper {
-        @extend .abs-add-box-sizing-desktop-m;
         @include lib-layout-column(2, 1, $checkout-wrapper__columns);
         padding-right: $indent__l;
     }

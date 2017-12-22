@@ -3,7 +3,6 @@
 //  ---------------------------------------------
 
 .opc-block-summary {
-    @extend .abs-add-box-sizing;
     @include lib-css(background, $checkout-summary__background-color);
     @include lib-css(padding, $checkout-summary__padding);
     margin: 0 0 $indent__base;

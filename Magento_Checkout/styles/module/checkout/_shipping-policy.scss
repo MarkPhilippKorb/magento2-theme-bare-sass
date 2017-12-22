@@ -25,7 +25,6 @@
         }
 
         .field-tooltip-content {
-            @extend .abs-add-box-sizing;
             @extend .abs-checkout-tooltip-content-position-top;
             @include lib-css(width, $checkout-shipping-policy-tooltip__width);
             top: $indent__l;

@@ -297,7 +297,6 @@
 
         .block-shipping {
             .box {
-                @extend .abs-add-box-sizing-desktop-s;
                 float: left;
                 width: 25%;
             }
@@ -324,13 +323,11 @@
         .block-billing {
             @extend .abs-add-clearfix-desktop-s;
             .box-billing-address {
-                @extend .abs-add-box-sizing-desktop-s;
                 float: left;
                 width: 25%;
             }
 
             .box-billing-method {
-                @extend .abs-add-box-sizing-desktop-s;
                 float: left;
                 padding-left: $indent__m;
                 width: 50%;

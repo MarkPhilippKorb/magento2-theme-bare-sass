@@ -41,7 +41,6 @@
     }
 
     .block-bundle-summary {
-        @extend .abs-add-box-sizing;
         @include lib-css(background, $secondary__color);
         padding: $indent__s $indent__base;
 

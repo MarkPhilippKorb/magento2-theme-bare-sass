@@ -512,36 +512,6 @@
 }
 
 //
-//  Box-sizing
-//  ---------------------------------------------
-
-@mixin abs-add-box-sizing {
-    box-sizing: border-box;
-}
-
-.abs-add-box-sizing {
-    @include abs-add-box-sizing();
-}
-
-@include min-screen($screen__m) {
-    .abs-add-box-sizing-desktop {
-        @include abs-add-box-sizing();
-    }
-}
-
-@include min-screen($screen__s) {
-    .abs-add-box-sizing-desktop-s {
-        @include abs-add-box-sizing();
-    }
-}
-
-@include min-screen($screen__m) {
-    .abs-add-box-sizing-desktop-m {
-        @include abs-add-box-sizing();
-    }
-}
-
-//
 //  Revert field type
 //  ---------------------------------------------
 
@@ -1060,7 +1030,6 @@
 
 .abs-field-date {
     .control {
-        @extend .abs-add-box-sizing;
         position: relative;
     }
 
@@ -1083,7 +1052,6 @@
 //  ---------------------------------------------
 
 .abs-field-tooltip {
-    @extend .abs-add-box-sizing;
     position: relative;
 
     input {

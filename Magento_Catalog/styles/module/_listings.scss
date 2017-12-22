@@ -12,7 +12,6 @@
     }
 
     &-item {
-        @extend .abs-add-box-sizing;
         vertical-align: top;
 
         .products-grid & {
