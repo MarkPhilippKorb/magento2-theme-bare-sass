@@ -1,0 +1,16 @@
+//
+//  Swatch option variables
+//  _____________________________________________
+
+$swatch-option__color: $text__color__muted !default;
+$swatch-option__background: $color-gray-light !default;
+
+$swatch-option__hover__outline__color: $text__color__muted !default;
+$swatch-option__hover__border__color: $color-white !default;
+$swatch-option__hover__text__color: $text__color !default;
+
+$swatch-option__selected__color: $text__color !default;
+$swatch-option__selected__background: $color-white !default;
+$swatch-option__selected__outline__color: $active__color !default;
+$swatch-option__selected__border__color: $color-white !default;
+
