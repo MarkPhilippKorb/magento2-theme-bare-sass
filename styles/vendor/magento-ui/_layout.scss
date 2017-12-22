@@ -34,7 +34,6 @@
     @if $use-flex == true {
         @include lib-vendor-prefix-display(flex);
         @include lib-vendor-prefix-flex-wrap(wrap);
-        box-sizing: border-box;
     }
     &:after {
         clear: both;

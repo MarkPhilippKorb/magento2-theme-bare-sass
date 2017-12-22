@@ -53,7 +53,6 @@ body {
     &:focus {
         @include lib-css(background, $color-gray-light);
         @include lib-css(padding, $indent__s);
-        box-sizing: border-box;
         left: 0;
         position: absolute;
         text-align: center;
@@ -241,7 +240,6 @@ body {
         > .breadcrumbs,
         > .top-container,
         > .widget {
-            box-sizing: border-box;
             width: 100%;
         }
 

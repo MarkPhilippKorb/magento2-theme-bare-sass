@@ -50,7 +50,6 @@
         @include lib-css(padding, $_loader-icon-padding);
         @include lib-css(width, $_loader-icon-width);
         bottom: 0;
-        box-sizing: border-box;
         content: '';
         left: 0;
         margin: auto;

@@ -51,7 +51,6 @@
     .navigation {
         @include lib-css(background, $_nav-background-color);
         @include lib-css(border, $_nav-border);
-        box-sizing: border-box;
 
         ul {
             margin: 0;

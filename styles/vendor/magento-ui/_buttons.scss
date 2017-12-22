@@ -69,7 +69,6 @@
     @include lib-css(width, $_button-width);
     @include lib-font-size($_button-font-size);
     @include lib-line-height($_button-line-height);
-    box-sizing: border-box;
     vertical-align: middle;
 
     @include _lib-button-icon (

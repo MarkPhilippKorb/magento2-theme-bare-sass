@@ -24,7 +24,6 @@
     > .item.content {
         @include lib-clearfix();
         @include lib-css(margin-top, $_tab-control-height__base);
-        box-sizing: border-box;
         float: right;
         margin-left: -100%;
         width: 100%;
@@ -157,7 +156,6 @@
     padding: 0;
 
     > .item.title {
-        box-sizing: border-box;
         float: none;
         width: 100%;
 
@@ -168,7 +166,6 @@
 
     > .item.content {
         @include lib-clearfix();
-        box-sizing: border-box;
         display: block;
         float: none;
         margin: 0;

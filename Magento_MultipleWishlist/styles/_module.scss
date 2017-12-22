@@ -86,7 +86,6 @@
     }
 
     &.window.popup {
-        box-sizing: border-box;
         @include lib-popup();
 
         &.active {

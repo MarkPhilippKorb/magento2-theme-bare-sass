@@ -103,7 +103,6 @@ body {
 
         .modal-inner-wrap {
             @include lib-css(background-color, $modal-slide-mobile__background-color);
-            box-sizing: border-box;
             height: auto;
             min-height: 100%;
         }

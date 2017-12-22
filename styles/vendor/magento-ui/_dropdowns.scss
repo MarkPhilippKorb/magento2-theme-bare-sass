@@ -243,7 +243,6 @@
         @include lib-css(min-width, $_dropdown-list-min-width);
         @include lib-css(width, $_dropdown-list-width);
         @include lib-css(z-index, $_dropdown-list-z-index);
-        box-sizing: border-box;
         display: none;
         position: absolute;
 

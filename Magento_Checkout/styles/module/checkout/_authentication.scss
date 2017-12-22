@@ -1,6 +1,5 @@
 
 .authentication-dropdown {
-    box-sizing: border-box;
 
     .modal-inner-wrap {
         padding: $block-auth__dropdown__padding;
@@ -83,7 +82,6 @@
                 background: $color-white;
                 border: 1px solid $color-gray-light;
                 border-radius: 50%;
-                box-sizing: border-box;
                 color: $color-gray-light;
                 content: attr(data-label);
                 display: inline-block;
@@ -176,7 +174,6 @@
         }
 
         .block[class] {
-            box-sizing: border-box;
             float: left;
             padding: $indent__s $indent__l 0 0;
             width: 50%;

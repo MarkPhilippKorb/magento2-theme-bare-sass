@@ -219,7 +219,6 @@ $active-nav-indent: 54px;
         background: darken($navigation__background, 5%);
         border: solid darken($navigation__background, 10%);
         border-width: 0 0 1px 1px;
-        box-sizing: border-box;
         float: left;
         height: 71px;
         padding-top: 24px;
@@ -240,7 +239,6 @@ $active-nav-indent: 54px;
 
     .nav-sections-item-content {
         @include lib-clearfix();
-        box-sizing: border-box;
         float: right;
         margin-left: -100%;
         margin-top: 71px;

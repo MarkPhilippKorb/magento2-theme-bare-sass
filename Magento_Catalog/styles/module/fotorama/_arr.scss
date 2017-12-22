@@ -5,7 +5,6 @@
     top: 0;
     bottom: 0;
     width: $fotorama-arw-size;
-    box-sizing: border-box;
     z-index: $z-index-9;
     cursor: pointer;
     @include fotorama-button-background();

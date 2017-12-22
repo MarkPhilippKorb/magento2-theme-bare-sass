@@ -145,7 +145,6 @@
     @include lib-css(padding, $_padding);
     @include lib-css(vertical-align, $_vertical-align);
     @include lib-css(width, $_width);
-    box-sizing: border-box;
 
     @include _lib-form-element-focus(
         $_background,
@@ -616,7 +615,6 @@
         @include lib-css(margin, $_legend-margin);
         @include lib-css(padding, $_legend-padding);
         @include lib-css(width, $_legend-width);
-        box-sizing: border-box;
         float: left;
 
         @include lib-typography(
@@ -743,7 +741,6 @@
     .fields.group {
         @include lib-clearfix();
         .field {
-            box-sizing: border-box;
             float: left;
         }
 
@@ -880,13 +877,11 @@
 ) {
     @include lib-clearfix();
     @include lib-css(margin, $_type-inline-margin);
-    box-sizing: border-box;
 
     &.choice:before,
     &.no-label:before {
         @include lib-css(padding, $_type-inline-label-padding);
         @include lib-css(width, $_type-inline-label-width);
-        box-sizing: border-box;
         content: ' ';
         float: left;
         height: 1px;
@@ -896,7 +891,6 @@
         @include lib-css(padding, $_type-inline-label-padding);
         @include lib-css(text-align, $_type-inline-label-align);
         @include lib-css(width, $_type-inline-label-width);
-        box-sizing: border-box;
         float: left;
     }
 
@@ -906,7 +900,6 @@
             @include lib-css(padding, $_type-inline-label-padding);
             @include lib-css(text-align, $_type-inline-label-align);
             @include lib-css(width, $_type-inline-label-width);
-            box-sizing: border-box;
             float: left;
         }
 
@@ -1084,7 +1077,6 @@
 ) {
     @if $_column {
         @include lib-css(padding, $_column-padding);
-        box-sizing: border-box;
         display: inline-block;
 
         @include lib-form-field-column-number($_column-number);

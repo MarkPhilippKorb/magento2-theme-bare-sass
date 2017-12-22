@@ -403,7 +403,6 @@
                     @include lib-css(padding, $form-field-type-label-inline__padding);
                     @include lib-css(text-align, $form-field-type-label-inline__align);
                     @include lib-css(width, $form-field-type-label-inline__width);
-                    box-sizing: border-box;
                     float: left;
                 }
 
