@@ -131,9 +131,9 @@
     min-width: 20px;
     position: absolute;
     padding: 5px;
-    background: #fff;
-    color: rgb(148, 148, 148);
-    border: 1px solid #adadad;
+    background: $swatch-option-tooltip__background;
+    color: $swatch-option-tooltip__text;
+    border: 1px solid $swatch-option-tooltip__border-color;
     display: none;
     z-index: 999;
     text-align: center;
@@ -157,7 +157,7 @@
     height: 0;
     border-style: solid;
     border-width: 7px 7.5px 0 7.5px;
-    border-color: #fff transparent transparent transparent;
+    border-color: $swatch-option-tooltip__background transparent transparent transparent;
     font-size: 1px;
 }
 
@@ -171,7 +171,7 @@
     height: 0;
     border-style: solid;
     border-width: 8px 8.5px 0 8.5px;
-    border-color: #adadad transparent transparent transparent;
+    border-color: $swatch-option-tooltip__border-color transparent transparent transparent;
     font-size: 1px;
 }
 
@@ -213,15 +213,15 @@
 }
 
 .swatch-option-link-layered:focus > div {
-    box-shadow: 0 0 3px 1px #68a8e0;
+	@include lib-css(box-shadow, $focus__box-shadow);
 }
 
 .swatch-option-tooltip-layered {
     width: 140px;
     position: absolute;
-    background: #fff;
-    color: rgb(148, 148, 148);
-    border: 1px solid #adadad;
+    background: $swatch-option-tooltip__background;
+    color: $swatch-option-tooltip__text;
+    border: 1px solid $swatch-option-tooltip__border-color;
     display: none;
     z-index: 999;
     left: -47px;

@@ -14,3 +14,7 @@ $swatch-option__selected__background: $color-white !default;
 $swatch-option__selected__outline__color: $active__color !default;
 $swatch-option__selected__border__color: $color-white !default;
 
+// Swatch tooltip
+$swatch-option-tooltip__background: $color-white;
+$swatch-option-tooltip__text: $text__color;
+$swatch-option-tooltip__border-color: $module-dark__border-color;
