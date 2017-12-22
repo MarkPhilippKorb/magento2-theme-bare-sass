@@ -1,5 +1,6 @@
 # Bare a SASS based Magento 2 theme
-SASS based Magento 2 theme
+
+This Theme is not yet ready for production.
 
 What was changed from the Blank Theme (1.0.2)
 
