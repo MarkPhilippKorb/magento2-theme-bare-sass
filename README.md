@@ -11,3 +11,6 @@ What was changed from the Blank Theme (1.0.2)
 * Fixed a couple of issues with the Navigation Styles, Borders, positions, not working submenu marks and some blinking
 * Overhauled and dumped down the message variables, removed the ateral variant 
 + And other stuff I totally forgot to write down...
+
+# Features
+* jquery-match-height 0.7.2 added and applied on product grid items. Add to Cart buttons are now aligning 

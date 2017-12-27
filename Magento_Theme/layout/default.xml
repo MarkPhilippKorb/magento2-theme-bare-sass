@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="after.body.start">
+            <block class="Magento\Framework\View\Element\Text" name="js.main">
+                <arguments>
+                    <argument translate="true" name="text" xsi:type="string"><![CDATA[<script type="text/x-magento-init">{"*":{"js/main":{}}}</script>]]></argument>
+                </arguments>
+            </block>
+    </referenceContainer>
+    </body>
+</page>
