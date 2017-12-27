@@ -17,7 +17,7 @@ $breadcrumbs-icon__font-margin                   : 0 !default;
 $breadcrumbs-icon__font-vertical-align           : top !default;
 
 //  Current page
-$breadcrumbs-current__color                      : $color-gray !default;
+$breadcrumbs-current__color                      : $text__color__muted !default;
 $breadcrumbs-current__font-weight                : $font-weight__regular !default;
 $breadcrumbs-current__background                 : false !default;
 $breadcrumbs-current__border                     : false !default;
@@ -28,8 +28,9 @@ $breadcrumbs-current__gradient-direction         : vertical !default;
 $breadcrumbs-current__gradient-color-start       : false !default;
 $breadcrumbs-current__gradient-color-end         : false !default;
 
+//  Separator
 $breadcrumbs-separator__symbol                   : false !default;
-$breadcrumbs-separator__color                    : $breadcrumbs-current__color !default;
+$breadcrumbs-separator__color                    : $text__color !default;
 
 //
 //  Link
@@ -39,7 +40,7 @@ $breadcrumbs-separator__color                    : $breadcrumbs-current__color !
 $breadcrumbs-link__gradient                      : false !default; // [true|false]
 $breadcrumbs-link__gradient-direction            : false !default; // [true|false]
 
-$breadcrumbs-link__color                         : $primary__color !default;
+$breadcrumbs-link__color                         : $text__color !default;
 $breadcrumbs-link__background                    : false !default;
 $breadcrumbs-link__border                        : false !default;
 $breadcrumbs-link__text-decoration               : none !default;
@@ -47,7 +48,7 @@ $breadcrumbs-link__gradient-color-start          : false !default;
 $breadcrumbs-link__gradient-color-end            : false !default;
 
 //  Visited
-$breadcrumbs-link__visited__color                : $primary__color !default;
+$breadcrumbs-link__visited__color                : $text__color !default;
 $breadcrumbs-link__visited__background           : $breadcrumbs-link__background !default;
 $breadcrumbs-link__visited__border               : $breadcrumbs-link__border !default;
 $breadcrumbs-link__visited__text-decoration      : none !default;
@@ -55,7 +56,7 @@ $breadcrumbs-link__visited__gradient-color-start : false !default;
 $breadcrumbs-link__visited__gradient-color-end   : false !default;
 
 //  Hover
-$breadcrumbs-link__hover__color                  : $primary__color !default;
+$breadcrumbs-link__hover__color                  : $text__color !default;
 $breadcrumbs-link__hover__background             : false !default;
 $breadcrumbs-link__hover__border                 : $breadcrumbs-link__border !default;
 $breadcrumbs-link__hover__text-decoration        : underline !default;
@@ -63,7 +64,7 @@ $breadcrumbs-link__hover__gradient-color-start   : false !default;
 $breadcrumbs-link__hover__gradient-color-end     : false !default;
 
 //  Active
-$breadcrumbs-link__active__color                 : $primary__color !default;
+$breadcrumbs-link__active__color                 : $text__color !default;
 $breadcrumbs-link__active__background            : $breadcrumbs-link__background !default;
 $breadcrumbs-link__active__border                : $breadcrumbs-link__border !default;
 $breadcrumbs-link__active__text-decoration       : none !default;
