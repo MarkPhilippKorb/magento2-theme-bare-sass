@@ -215,7 +215,7 @@
             @include lib-button-icon(
                 $_icon-font-content   : $icon-search,
                 $_icon-font-text-hide : true,
-                $_icon-font-color     : $header-icons-color
+                $_icon-font-color     : $search-icon-color
             );
             @include lib-button-reset();
             padding: $indent__xs 0;
@@ -223,10 +223,11 @@
             right: 10px;
             top: 0;
             z-index: 1;
+	        opacity: 1;
 
             &:focus {
                 &:before {
-                    @include lib-css(color, $color-gray-dark);
+                    @include lib-css(color, $search-icon-color-hover);
                 }
             }
         }
