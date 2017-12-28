@@ -151,11 +151,17 @@
         &.available,
         &.unavailable {
             display: inline-block;
-            font-weight: $font-weight__bold;
+            font-weight: $product-stock-font-weight;
             margin-right: $indent__base;
-            text-transform: uppercase;
+            text-transform: $product-stock_text-transform;
             vertical-align: top;
         }
+	    &.available{
+		    color: $product-stock-color_available;
+	    }
+	    &.unavailable{
+		    color: $product-stock-color_unavailable;
+	    }
     }
 
     .product {
@@ -164,7 +170,11 @@
                 display: inline-block;
                 vertical-align: top;
                 @include lib-css(color, $text__color__muted);
-
+				
+	            strong{
+		            font-weight: $product-sku-font-weight;
+	            }
+	            
                 > .value {
                     display: inline-block;
                     vertical-align: top;
