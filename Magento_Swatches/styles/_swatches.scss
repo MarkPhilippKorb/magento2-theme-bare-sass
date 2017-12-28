@@ -1,4 +1,11 @@
- .swatch-attribute-label {
+.swatch-attribute{
+	margin-bottom: 7px;
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+
+.swatch-attribute-label {
     font-weight: bold;
     position: relative;
 }
@@ -23,7 +30,7 @@
 }
 
 .swatch-attribute-options {
-    margin-top: 10px;
+    margin-top: 2px;
 	box-sizing: content-box;
 }
 
