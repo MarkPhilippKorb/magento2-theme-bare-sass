@@ -9,9 +9,7 @@
 
 @include min-screen($screen__m) {
     .product.data.items {
-        @include lib-data-tabs(
-            $_tab-content-border-top-status: true
-        );
+        @include lib-data-tabs();
     }
 }
 
