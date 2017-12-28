@@ -91,7 +91,7 @@ $reviews-indent-desktop: 30px;
 
 .product-reviews-summary {
     display: table;
-    margin: $indent__s 0 12px;
+    margin: 0;
 
     .products.wrapper.list & {
         margin: 0 auto;
