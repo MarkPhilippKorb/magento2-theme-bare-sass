@@ -14,7 +14,8 @@ $product-name-link__text-decoration__hover                  : $link__hover__text
 $product-name-link__text-decoration__visited                : $link__hover__text-decoration !default;
 
 // Prices
-$price-label-display                                        : none !default;
+$special-price-label-display                                : none !default;
+$old-price-label-display                                    : none !default;
 
 //  Stock
 $product-stock-color_available                              : $color-green !default;
