@@ -7,9 +7,6 @@ $reviews-indent-desktop: 30px;
 
 .rating-summary {
     @include lib-rating-summary();
-    .rating-result {
-        margin-left: -5px;
-    }
 }
 
 .product-reviews-summary,
