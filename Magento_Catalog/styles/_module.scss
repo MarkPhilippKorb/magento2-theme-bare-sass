@@ -8,9 +8,17 @@
 //  Category view
 //  ---------------------------------------------
 .price-box{
-	.price-label{
-		display: $price-label-display;
+	.special-price{
+		.price-label{
+			display: $special-price-label-display;
+		}
 	}
+	.old-price{
+		.price-label{
+			display: $old-price-label-display;
+		}
+	}
+
 }
 
 
