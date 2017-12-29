@@ -7,6 +7,12 @@
 //
 //  Category view
 //  ---------------------------------------------
+.price-box{
+	.price-label{
+		display: $price-label-display;
+	}
+}
+
 
 .old-price,
 .old.price {
