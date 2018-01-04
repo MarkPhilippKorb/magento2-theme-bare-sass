@@ -318,7 +318,17 @@
 
     .box-tocart {
         margin: $indent__base 0;
-
+	    display: table;
+	    width: 100%;
+	    .field.qty {
+		    display: table-cell;
+	    }
+	
+	    .actions {
+		    display: table-cell;
+		    text-align: center;
+		    vertical-align: bottom;
+	    }
         .field.qty {
             padding-right: 0.75 * $indent__base;
 	        label{
@@ -493,6 +503,14 @@
 //  _____________________________________________
 
 @include max-screen($screen__m) {
+	.product-info-main,
+	.product-options-bottom {
+		.box-tocart {
+			.actions{
+				width: 100%;
+			}
+		}
+	}
     .catalog-product-view {
         .column.main {
             @include lib-vendor-prefix-display(flex);
@@ -535,17 +553,7 @@
     .product-info-main,
     .product-options-bottom {
         .box-tocart {
-            display: table;
-
-            .field.qty {
-                display: table-cell;
-            }
-
-            .actions {
-                display: table-cell;
-                text-align: center;
-                vertical-align: bottom;
-            }
+			width: auto;
         }
     }
 
