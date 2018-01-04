@@ -321,6 +321,9 @@
 
         .field.qty {
             padding-right: 0.75 * $indent__base;
+	        label{
+		        display: none;
+	        }
         }
 
         .input-text.qty {
@@ -540,7 +543,6 @@
 
             .actions {
                 display: table-cell;
-                padding-top: $indent__m;
                 text-align: center;
                 vertical-align: bottom;
             }
