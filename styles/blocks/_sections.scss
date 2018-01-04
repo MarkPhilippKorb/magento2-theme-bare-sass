@@ -3,6 +3,15 @@
     margin-bottom: $indent__base;
 }
 
+.product .data.switch .counter{
+	&:before{
+		content: '(';
+	}
+	&:after{
+		content: ')';
+	}
+}
+
 //
 //  Desktop
 //  _____________________________________________
