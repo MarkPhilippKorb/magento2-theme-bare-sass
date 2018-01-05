@@ -354,12 +354,35 @@
 
     .product-addto-links {
         margin: $indent__base 0;
+	    .action{
+		    margin-right: $indent__xs;
+		    &.towishlist {
+				@include lib-icon-font(
+						$_icon-font-content        : $icon-wishlist-empty,
+						$_icon-font-size           : 29px,
+						$_icon-font-text-hide      : false,
+						$_icon-font-vertical-align : middle,
+						$_icon-font-line-height    : 16px
+				);
+
+		    }
+		    &.tocompare{
+		        @extend .abs-action-addto-product;
+		        vertical-align: top;
+			    @include lib-icon-font(
+					    $_icon-font-content        : $icon-compare-empty,
+					    $_icon-font-size           : 29px,
+					    $_icon-font-text-hide      : false,
+					    $_icon-font-vertical-align : middle,
+					    $_icon-font-line-height    : 16px
+			    );
+		    }
+		    &:before{
+			    margin-left: -7px; // counters the icon width
+		    }
+	    }
     }
 
-    .action.tocompare {
-        @extend .abs-action-addto-product;
-        vertical-align: top;
-    }
 }
 
 .prices-tier {
