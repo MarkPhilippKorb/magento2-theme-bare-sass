@@ -50,7 +50,7 @@ $button__border                               : 1px solid $color-gray-light !def
 $button__gradient-color-start                 : false !default;
 $button__gradient-color-end                   : false !default;
 
-$button__hover__color                         : $color-gray-dark !default;
+$button__hover__color                         : $link__hover__color !default;
 $button__hover__background                    : $color-gray-light !default;
 $button__hover__border                        : $button__border !default;
 $button__hover__gradient-color-start          : false !default;
