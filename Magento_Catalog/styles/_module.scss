@@ -24,7 +24,9 @@
 
 .old-price,
 .old.price {
-    text-decoration: line-through;
+	.price{
+		text-decoration: line-through;
+	}
 }
 
 .prices-tier {
@@ -274,39 +276,34 @@
         .price-including-tax + .price-excluding-tax,
         .weee + .price-excluding-tax,
         .weee {
-            @include lib-font-size(12);
+            font-size: $product-page-font-size-special-price;
             line-height: 14px;
             margin-bottom: $indent__xs;
-
-            .price {
-                @include lib-font-size(12);
-                font-weight: $font-weight__bold;
-            }
-        }
-
-        .price-wrapper .price {
-            @include lib-font-size(18);
-            font-weight: $font-weight__bold;
         }
 
         .price {
             white-space: nowrap;
+	        font-size: $product-page-font-size-special-price;
+	        font-weight: $product-page-font-weight-special-price;
+	        color: $product-page-color-special-price;
         }
     }
 
     .special-price {
         display: block;
-        margin: $indent__s 0;
-
-        .price-container {
-            @include lib-font-size(14);
-        }
-
         .price-label + .price-wrapper {
             display: inline-block;
         }
     }
 
+    .old-price{
+	    .price{
+		    font-size: $product-page-font-size-old-price;
+		    font-weight: $product-page-font-weight-old-price;
+		    color: $product-page-color-old-price;
+	    }
+    }
+	
     .old-price,
     .special-price {
         .price-label {
