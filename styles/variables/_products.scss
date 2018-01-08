@@ -18,19 +18,25 @@ $special-price-label-display                                : none !default;
 $old-price-label-display                                    : none !default;
 
 // Prices grid
+$price-box-line-height                                      : 1 !default;
+
 $product-list-font-size-special-price                       : $font-size__base !default;
-$product-list-font-weight-special-price                     : $font-weight__regular !default;
+$product-list-font-weight-special-price                     : $font-weight__bold !default;
 $product-list-color-special-price                           : $text__color !default;
 $product-list-font-size-old-price                           : $font-size__s !default;
-$product-list-font-weight-old-price                         : $font-weight__bold !default;
+$product-list-font-weight-old-price                         : $font-weight__regular !default;
 $product-list-color-old-price                               : $color-red !default;
+
+$product-list-color-minimal-price                           : $text__color !default;
+$product-font-weigh-minimal-price                           : $font-weight__regular !default;
+$product-list-font-size-price                               : 14px !default;
 
 // Prices product page
 $product-page-font-size-special-price                       : $font-size__xl !default;
-$product-page-font-weight-special-price                     : $font-weight__regular !default;
+$product-page-font-weight-special-price                     : $font-weight__bold !default;
 $product-page-color-special-price                           : $text__color !default;
 $product-page-font-size-old-price                           : $font-size__base !default;
-$product-page-font-weight-old-price                         : $font-weight__bold !default;
+$product-page-font-weight-old-price                         : $font-weight__regular !default;
 $product-page-color-old-price                               : $color-red !default;
 
 

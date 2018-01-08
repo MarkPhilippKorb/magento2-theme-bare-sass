@@ -31,10 +31,12 @@
 	
 	.price-box {
 		margin: $indent__s 0 $indent__m;
+		line-height: $price-box-line-height;
 		
 		.price {
-			font-size: 14px;
-			font-weight: $font-weight__bold;
+			font-size: $product-list-font-size-special-price;
+			font-weight: $product-list-font-weight-special-price;
+			color: $product-list-color-special-price;
 			white-space: nowrap;
 		}
 		
@@ -49,11 +51,7 @@
 	
 	.special-price,
 	.minimal-price {
-		.price {
-			font-size: 14px;
-			font-weight: $font-weight__bold;
-		}
-		
+	
 		.price-wrapper {
 			display: inline-block;
 		}
@@ -69,7 +67,9 @@
 	
 	.old-price {
 		.price {
-			font-weight: $font-weight__regular;
+			font-size: $product-list-font-size-old-price;
+			font-weight: $product-list-font-weight-old-price;
+			color: $product-list-color-old-price;
 		}
 	}
 	
@@ -81,14 +81,14 @@
 	
 	.minimal-price-link {
 		margin-top: 5px;
+		color: $product-list-color-minimal-price;
 		
 		.price-label {
-			color: $link__color;
 			font-size: 14px;
 		}
 		
-		.price {
-			font-weight: $font-weight__regular;
+		.price-wrapper  {
+			font-weight: $product-font-weigh-minimal-price;
 		}
 	}
 	
