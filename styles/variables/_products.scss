@@ -3,6 +3,9 @@
 //  Product
 //  ---------------------------------------------
 
+$product-name-font-size                                     : $font-size__base !default;
+$product-name-font-weight                                   : $font-weight__bold !default;
+
 $product-name-link__color                                   : $text__color !default;
 $product-name-link__color__active                           : $text__color !default;
 $product-name-link__color__hover                            : $text__color !default;
@@ -28,8 +31,8 @@ $product-list-font-weight-old-price                         : $font-weight__regu
 $product-list-color-old-price                               : $color-red !default;
 
 $product-list-color-minimal-price                           : $text__color !default;
-$product-font-weigh-minimal-price                           : $font-weight__regular !default;
-$product-list-font-size-price                               : 14px !default;
+$product-list-font-weigh-minimal-price                      : $font-weight__regular !default;
+$product-list-font-size-minimal-price                       : $font-size__base !default;
 
 // Prices product page
 $product-page-font-size-special-price                       : $font-size__xl !default;

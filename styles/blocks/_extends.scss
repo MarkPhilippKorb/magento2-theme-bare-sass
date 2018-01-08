@@ -254,7 +254,8 @@
 //  ---------------------------------------------
 
 .abs-product-link {
-    font-weight: $font-weight__regular;
+    font-size: $product-name-font-size;
+    font-weight: $product-name-font-weight;
 
     > a {
         @include lib-link(
