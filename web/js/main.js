@@ -1,13 +1,16 @@
 
 define([
     "jquery",
+    "selectric",
     "matchHeight"
 ],
 function($) {
     "use strict";
 
-    // prduct grid match height
     jQuery(document).ready(function() {
+        jQuery(function() {
+            jQuery('select').selectric();
+        });
         jQuery(".products-grid").each(function(index, element) {
             jQuery(element).find('.product-item-name').matchHeight();
         });

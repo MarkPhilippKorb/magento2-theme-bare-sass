@@ -310,3 +310,18 @@ $form-hasrequired__line-height                  : false !default;
 $form-hasrequired__border                       : false !default;
 $form-hasrequired__margin                       : $indent__s 0 0 !default;
 $form-hasrequired__padding                      : false !default;
+
+// Selectrics Inputs
+
+$selectric-main-color                           : $color-gray-darker !default;
+$selectric-secondary-color                      : $color-gray-darker !default;
+$selectric-text-color                           : $text__color !default;
+$selectric-bg-color                             : $form-element-input__background !default;
+$selectric-bg-color-hover                       : $color-gray !default;
+$selectric-btn-bg-color                         : $form-element-input__background !default;
+$selectric-height                               : 32px !default;
+$selectric-spacing                              : 10px !default;
+$selectric-border-width                         : 1px !default;
+$selectric-border-radius                        : 0px !default;
+$selectric-inner-height                         : $selectric-height - ($selectric-border-width * 2) !default;
+$selectric-font-size                            : 12px !default;

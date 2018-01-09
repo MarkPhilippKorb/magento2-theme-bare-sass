@@ -3,17 +3,12 @@
 @import "mixins/media-queries";
 
 // Theme variables
-//
-//  Variables
-//  _____________________________________________
-
-
-
 @import 'variables';
 
 // Vendor libs
 @import 'vendor/normalize/lib'; // Normalize.css
 @import 'vendor/magento-ui/lib'; // Magento UI
+@import 'vendor/selectrics/lib'; // Selectrics
 
 
 // Reset default styles with magento-reset
