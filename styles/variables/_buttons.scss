@@ -122,13 +122,13 @@ $button__padding__s                           : $indent__xs 8px !default;
 //  Variables missing in extend.scss
 //  ---------------------------------------------
 
-$addto-color                                                  : $primary__color !default;
-$addto-hover-color                                            : $link__hover__color !default;
+$addto-color                                   : $primary__color !default;
+$addto-hover-color                             : $link__hover__color !default;
 
 
 //
 //  Button
 //  ---------------------------------------------
 
-$button__shadow                                               : inset 0 2px 1px rgba(0, 0, 0, 0.12) !default;
+$button__shadow                                : inset 0 2px 1px rgba(0, 0, 0, 0.12) !default;
 
