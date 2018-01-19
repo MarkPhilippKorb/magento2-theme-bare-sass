@@ -45,7 +45,7 @@ $pager__visited__gradient-color-start        : false !default;
 $pager__visited__gradient-color-end          : false !default;
 
 //  Pager link hover
-$pager__hover__color                         : $link__hover__color !default;
+$pager__hover__color                         : $link__active__color !default;
 $pager__hover__border                        : false !default;
 $pager__hover__text-decoration               : none !default;
 $pager__hover__background                    : false !default;
