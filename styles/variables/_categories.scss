@@ -9,9 +9,13 @@ $toolbar-background-color                           : $module__background-color 
 $toolbar-border                                     : 1px solid $module__border-color !default;
 $toolbar-padding                                    : 5px !default;
 
-// Toolbar - Sorter action
+// Toolbar - Sorter
 $toolbar-action-icon-color                          : $text__color !default;
 $toolbar-action-icon-color-hover                    : $link__hover__color !default;
+$toolbar-sorter-line-height: 34px !default; // Depens on the height of the toolbar-mode
+
+// Toolbar - amount
+$toolbar-amount-line-height: 34px !default; // Depens on the height of the toolbar-mode
 
 // Toolbar - product mode
 $toolbar-mode-padding: 3px 6px!default;
@@ -27,9 +31,6 @@ $toolbar-mode-background-color-active: $module-dark__background-color !default;;
 
 $toolbar-mode-icon-font-size                        : 24px !default;
 $toolbar-element-background                         : $module-dark__background-color !default;
-
-// Toolbar - amount
-$toolbar-amount-line-height: 34px !default; // Depens on the height of the toolbar-mode
 
 
 //

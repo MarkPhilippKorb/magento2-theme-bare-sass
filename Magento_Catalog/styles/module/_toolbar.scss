@@ -45,8 +45,10 @@
 }
 
 .sorter {
-    padding: 4px 0 0;
-
+	line-height: $toolbar-sorter-line-height;
+	.sorter-label{
+		margin-right: 5px;
+	}
     .products.wrapper ~ .toolbar & {
         display: none;
     }
