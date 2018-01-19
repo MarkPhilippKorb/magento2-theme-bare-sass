@@ -1,4 +1,14 @@
 // Toolbar
+$toolbar-textr-color                                : $text__color !default;
+$toolbar-background-color                           : $module__background-color !default;
+$toolbar-border                                     : 1px solid $module__border-color !default;
+$toolbar-padding                                    : 5px !default;
+
+// Sorter action
+$toolbar-action-icon-color                          : $text__color !default;
+$toolbar-action-icon-color-hover                    : $link__hover__color !default;
+
+
 $toolbar-mode-icon-font-size                        : 24px !default;
 $toolbar-element-background                         : $module-dark__background-color !default;
 

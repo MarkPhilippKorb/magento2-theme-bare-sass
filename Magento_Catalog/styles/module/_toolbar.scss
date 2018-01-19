@@ -7,6 +7,7 @@
 
 .toolbar {
     @extend .abs-add-clearfix;
+	color: $toolbar-textr-color;
 }
 
 .toolbar-amount {
@@ -62,13 +63,13 @@
         $icon-arrow-up,
         $_icon-font-size       : 28px,
         $_icon-font-line-height: 32px,
-        $_icon-font-color      : $header-icons-color,
-        $_icon-font-color-hover: $header-icons-color-hover,
+        $_icon-font-color      : $toolbar-action-icon-color,
+        $_icon-font-color-hover: $toolbar-action-icon-color-hover,
         $_icon-font-text-hide  : true
     );
 }
 
-.sorter.sort-desc {
+.sorter-action.sort-desc {
     &:before {
         content: $icon-arrow-down;
     }
@@ -107,6 +108,9 @@
     }
 
     .toolbar {
+	    background: $toolbar-background-color;
+	    border: $toolbar-border;
+	    padding: $toolbar-padding;
         .products.wrapper ~ & .pages {
             float: left;
         }
