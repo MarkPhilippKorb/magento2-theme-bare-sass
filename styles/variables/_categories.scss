@@ -1,18 +1,41 @@
-// Toolbar
+
+//
+//  Toolbar
+//  _____________________________________________
+
+// Toolbar - basics
 $toolbar-textr-color                                : $text__color !default;
 $toolbar-background-color                           : $module__background-color !default;
 $toolbar-border                                     : 1px solid $module__border-color !default;
 $toolbar-padding                                    : 5px !default;
 
-// Sorter action
+// Toolbar - Sorter action
 $toolbar-action-icon-color                          : $text__color !default;
 $toolbar-action-icon-color-hover                    : $link__hover__color !default;
 
+// Toolbar - product mode
+$toolbar-mode-padding: 3px 6px!default;
+
+$toolbar-mode-color: $text__color !default;
+$toolbar-mode-background-color: $module__background-color !default;
+
+$toolbar-mode-color-hover: $text__color__muted !default;
+$toolbar-mode-background-color-hover: $module-dark__background-color !default;
+
+$toolbar-mode-color-active: $text__color !default;;
+$toolbar-mode-background-color-active: $module-dark__background-color !default;;
 
 $toolbar-mode-icon-font-size                        : 24px !default;
 $toolbar-element-background                         : $module-dark__background-color !default;
 
-// Grids
+// Toolbar - amount
+$toolbar-amount-line-height: 34px !default; // Depens on the height of the toolbar-mode
+
+
+//
+//  Grids
+//  _____________________________________________
+
 $product-grid-items-per-row-layout-default          : 2;
 
 $product-grid-items-per-row-layout-1-screen-s       : 3;

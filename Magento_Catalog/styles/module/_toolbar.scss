@@ -12,9 +12,9 @@
 
 .toolbar-amount {
     display: block;
-    line-height: $toolbar-mode-icon-font-size + 2;
+    line-height: $toolbar-amount-line-height;
     margin: 0;
-    padding: 8px 0 0;
+    padding: 0;
 
     .products.wrapper ~ .toolbar & {
         display: none;
@@ -139,14 +139,18 @@
     }
 
     .modes-mode {
-        color: $text__color__muted;
+        color: $toolbar-mode-color;
+	    background: $toolbar-mode-background-color;
         border: 1px solid $border-color__base;
         border-right: 0;
         float: left;
         font-weight: $font-weight__regular;
         line-height: 1;
-        padding: 7px 10px;
+        padding: $toolbar-mode-padding;
         text-align: center;
+        &:last-child {
+            border-right: 1px solid $border-color__base;
+        }
         @include lib-icon-font(
             $icon-grid,
             $_icon-font-size       : $toolbar-mode-icon-font-size,
@@ -157,18 +161,15 @@
         );
 
         &:not(.active) {
-            &:hover {
-                color: $text__color__muted;
-                background: $toolbar-element-background;
+            &:hover, &:hover:before{
+                color: $toolbar-mode-color-hover;
+                background: $toolbar-mode-background-color-hover;
             }
         }
 
-        &:last-child {
-            border-right: 1px solid $border-color__base;
-        }
-
-        &.active {
-            color: $text__color__muted;
+        &.active, &.active:before {
+            color: $toolbar-mode-color-active;
+	        background: $toolbar-mode-background-color-active;
         }
     }
 
