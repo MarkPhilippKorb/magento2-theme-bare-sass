@@ -180,17 +180,17 @@ $heading__small-line-height     : 1 !default;
 $heading__small-size            : ($font-size__xs / $font-size__base) * 100% !default;
 
 //  Code blocks
-$code__background-color         : $panel__background-color !default;
+$code__background-color         : $module__background-color !default;
 $code__color                    : $text__color__intense !default;
 $code__font-size                : $font-size__s !default;
 $code__padding                  : 2px 4px !default;
 
-$pre__background-color          : $panel__background-color !default;
+$pre__background-color          : $module__background-color !default;
 $pre__border-color              : $border-color__base !default;
 $pre__border-width              : $border-width__base !default;
 $pre__color                     : $text__color__intense !default;
 
-$kbd__background-color          : $panel__background-color !default;
+$kbd__background-color          : $module__background-color !default;
 $kbd__color                     : $text__color__intense !default;
 
 //  Blockquote
@@ -213,7 +213,7 @@ $hr__border-style               : solid !default;
 $hr__border-width               : $border-width__base !default;
 
 $mark__color                    : $text__color__intense !default;
-$mark__background-color         : $panel__background-color !default;
+$mark__background-color         : $module__background-color !default;
 
 $abbr__border-color             : $border-color__base !default;
 

@@ -93,7 +93,7 @@ $pager-action__visited__gradient-color-end   : false !default;
 //  Pager link.action hover
 $pager-action__hover__color                  : $pager-action__color !default;
 $pager-action__hover__border                 : false !default;
-$pager-action__hover__background             : false !default;
+$pager-action__hover__background             : $module-dark__background-color !default;
 $pager-action__hover__text-decoration        : $pager__hover__text-decoration !default;
 $pager-action__hover__gradient-color-start   : false !default;
 $pager-action__hover__gradient-color-end     : false !default;
@@ -101,6 +101,6 @@ $pager-action__hover__gradient-color-end     : false !default;
 //  Pager link.action active
 $pager-action__active__color                 : $pager-action__color !default;
 $pager-action__active__border                : false !default;
-$pager-action__active__background            : false !default;
+$pager-action__active__background            : $module-dark__background-color !default;
 $pager-action__active__gradient-color-start  : false !default;
 $pager-action__active__gradient-color-end    : false !default;
