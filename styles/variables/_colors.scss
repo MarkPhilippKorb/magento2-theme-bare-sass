@@ -29,7 +29,6 @@ $color-sky-blue         : #68a8e0 !default;
 
 
 
-
 //
 //  Color nesting
 //  ---------------------------------------------
@@ -42,7 +41,6 @@ $secondary__color               : $color-gray-dark !default;
 $brand__color                   : $color-orange !default;
 $brand_secondary__color         : $color-blue !default;
 
-
 // Module Colors
 
 $module__background-color       : $color-gray-light !default;
@@ -51,14 +49,12 @@ $module__border-color           : $color-gray !default;
 $module-dark__background-color  : $color-gray !default;
 $module-dark__border-color      : $color-gray-dark !default;
 
-
 // Page variables
-$page__background-color  : $color-white !default;
+$page__background-color         : $color-white !default;
 
 
 // Action variables
-$active__color           : $color-orange !default;
-
+$active__color                  : $color-orange !default;
 
 // Message Variables
-$error__color            : $color-red !default;
+$error__color                   : $color-red !default;
