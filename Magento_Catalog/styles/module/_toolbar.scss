@@ -129,7 +129,7 @@
     .modes {
         display: block;
         float: left;
-        margin-right: $indent__base;
+        margin-right: $indent__s;
 
         .products.wrapper ~ .toolbar & {
             display: none;
