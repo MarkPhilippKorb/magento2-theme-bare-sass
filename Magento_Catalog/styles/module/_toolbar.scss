@@ -8,6 +8,9 @@
 .toolbar {
     @extend .abs-add-clearfix;
 	color: $toolbar-textr-color;
+	label{
+		margin-right: 5px;
+	}
 }
 
 .toolbar-amount {
@@ -46,9 +49,6 @@
 
 .sorter {
 	line-height: $toolbar-sorter-line-height;
-	.sorter-label{
-		margin-right: 5px;
-	}
     .products.wrapper ~ .toolbar & {
         display: none;
     }
