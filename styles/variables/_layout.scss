@@ -20,7 +20,7 @@ $gutter-width                       : 0 !default;
 
 //  Variables for layout columns
 $layout-column__width               : $total-columns !default;
-$layout-column__sidebar-width       : 3 !default;
+$layout-column__sidebar-width       : 2.4 !default;
 $layout-column__left-width          : $layout-column__sidebar-width !default;
 $layout-column__right-width         : $layout-column__sidebar-width !default;
 
@@ -35,4 +35,4 @@ $layout-column-checkout__width-left : 3 !default;
 $layout-column-checkout__width-main : $layout-column__width - $layout-column-checkout__width-left !default;
 
 // Used in cart sidebar, Checkout sidebar, Tier Prices, My account navigation, Rating block background
-$sidebar__background-color                                    : $color-gray-light !default;
+$sidebar__background-color          : $module__background-color !default;
