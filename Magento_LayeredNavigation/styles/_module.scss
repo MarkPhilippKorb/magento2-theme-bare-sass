@@ -104,7 +104,7 @@
 		}
 	}
 	.filter:not(.active){
-		.block-title{
+		.block-title strong{
 			@include lib-link-as-button();
 			@include lib-button(
 					$_button-padding               : 7px 15px 7px 0,
@@ -119,6 +119,9 @@
 		}
 	}
 	.filter {
+		&.block{
+			margin-bottom: 0;
+		}
 		&.active {
 			position: relative;
 			visibility: visible;
@@ -196,13 +199,18 @@
 		
 		&-options-content {
 			padding: $indent__xs $indent__s;
+			a{
+				display: block;
+			}
 		}
 	}
 	
 	.filter .filter-current {
+		margin-top: $indent__s;
 		border: solid $border-color__base;
 		border-width: 1px 0;
-		margin: $indent__xs -$indent__s 0;
+		margin: 0 0 $indent__s 0;
+		padding:$filter-options-item-padding ;
 		
 		.items {
 			display: none;
