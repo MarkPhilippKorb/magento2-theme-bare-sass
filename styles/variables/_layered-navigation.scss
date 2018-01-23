@@ -1,0 +1,43 @@
+//
+//  LayerdNAvigation variables
+//  _____________________________________________
+
+// Global
+
+$filter-options-item-padding-size: $indent__s;
+$filter-options-item-padding: 0px $filter-options-item-padding-size;
+$filter-options-item-container-padding: 0 $filter-options-item-padding-size $filter-options-item-padding-size;
+$filter-options-item-border: 1px solid $module-dark__border-color;
+$filter-options-item-line-height: 26px;
+$filter-options-color: $text__color;
+$filter-options-decoration: none;
+$filter-options-color-active: $text__color;
+$filter-options-decoration-active: none;
+$filter-options-active-background: $module__background-color;
+$filter-options-count-color: $text__color__muted;
+
+$filter-options-title-color: $text__color;
+$filter-options-title-font-size: $font-size__base;
+$filter-options-title-line-height: 35px;
+$filter-options-title-font-weight: $font-weight__bold;
+$filter-options-title-icon-color: $text__color;
+$filter-options-title-icon-color-hover: $text__color;
+$filter-options-title-icon-size: 40px;
+$filter-options-title-position: $filter-options-item-padding-size;
+
+
+
+// Desktop
+
+$filter-subtitle-font-size: $font-size__l;
+$filter-subtitle-font-weight: $font-weight__regular;
+$filter-subtitle-color: $text__color;
+$filter-subtitle-border: $filter-options-item-border;
+$filter-subtitle-padding: $filter-options-item-padding;
+
+// Mobile
+
+
+
+
+
