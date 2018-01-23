@@ -103,7 +103,21 @@
 			}
 		}
 	}
-	
+	.filter:not(.active){
+		.block-title{
+			@include lib-link-as-button();
+			@include lib-button(
+					$_button-padding               : 7px 15px 7px 0,
+					$_button-icon-use              : true,
+					$_button-font-content          : $icon-next,
+					$_button-icon-font-size        : 32px,
+					$_button-icon-font-line-height : 16px,
+					$_button-icon-font-position    : after
+			);
+			display: block;
+			text-align: center;
+		}
+	}
 	.filter {
 		&.active {
 			position: relative;
@@ -124,12 +138,22 @@
 				z-index: 2;
 				
 				strong {
+					@include lib-icon-font(
+							$icon-remove,
+							$_icon-font-text-hide  : false,
+							$_icon-font-size       : $filter-options-title-icon-size,
+							$_icon-font-color      : $filter-options-title-icon-color,
+							$_icon-font-color-hover: $filter-options-title-icon-color-hover,
+							$_icon-font-position   : after,
+							$_icon-font-display    : block
+					);
 					background: none;
 					border: 0;
 					color: transparent;
 					left: auto;
+					position: absolute;
 					right: 3px;
-					top: 10px;
+					top: 0;
 				}
 			}
 			
@@ -138,8 +162,9 @@
 				display: block;
 				height: 50px;
 				left: 0;
-				line-height: 32px;
+				line-height: 50px;
 				position: fixed;
+				padding-left: $filter-options-item-padding-size;
 				right: 0;
 				top: 0;
 				z-index: 1;
