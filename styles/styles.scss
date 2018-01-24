@@ -1,13 +1,32 @@
-
-// Mixins
-@import "mixins/media-queries";
-
 // Theme variables
 @import 'variables';
 
+// Mixins
+@import "mixins/media-queries";
+@import 'mixins/actions-toolbar';
+@import 'mixins/breadcrumbs';
+@import 'mixins/buttons';
+@import 'mixins/dropdowns';
+@import 'mixins/forms';
+@import 'mixins/grids';
+@import 'mixins/icons';
+@import 'mixins/layout';
+@import 'mixins/loaders';
+@import 'mixins/messages';
+@import 'mixins/navigation';
+@import 'mixins/pages';
+@import 'mixins/popups';
+@import 'mixins/rating';
+@import 'mixins/resets';
+@import 'mixins/sections';
+@import 'mixins/tables';
+@import 'mixins/tooltips';
+@import 'mixins/typography';
+@import 'mixins/utilities';
+
+
 // Vendor libs
 @import 'vendor/normalize/lib'; // Normalize.css
-@import 'vendor/magento-ui/lib'; // Magento UI
 @import 'vendor/selectrics/lib'; // Selectrics
 
 
