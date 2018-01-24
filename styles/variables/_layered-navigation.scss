@@ -4,38 +4,42 @@
 
 // Global
 
-$filter-options-item-padding-size: $indent__s;
-$filter-options-item-padding: 0px $filter-options-item-padding-size;
-$filter-options-item-container-padding: 0 $filter-options-item-padding-size $filter-options-item-padding-size;
-$filter-options-item-border: 1px solid $module-dark__border-color;
-$filter-options-item-line-height: 26px;
-$filter-options-color: $text__color;
-$filter-options-decoration: none;
-$filter-options-color-active: $text__color;
-$filter-options-decoration-active: none;
-$filter-options-active-background: $module__background-color;
-$filter-options-count-color: $text__color__muted;
+$filter-options-item-padding-size       : $indent__s !default;
+$filter-options-item-padding            : 0px $filter-options-item-padding-size !default;
+$filter-options-item-container-padding  : 0 $filter-options-item-padding-size $filter-options-item-padding-size;
+$filter-options-item-border             : 1px solid $border-color__base !default;
+$filter-options-item-line-height        : 26px !default;
+$filter-options-color                   : $text__color !default;
+$filter-options-decoration              : none !default;
+$filter-options-color-active            : $text__color !default;
+$filter-options-decoration-active       : none !default;
+$filter-options-active-background       : $module__background-color !default;
+$filter-options-count-color             : $text__color__muted !default;
 
-$filter-options-title-color: $text__color;
-$filter-options-title-font-size: $font-size__base;
-$filter-options-title-line-height: 35px;
-$filter-options-title-font-weight: $font-weight__bold;
-$filter-options-title-icon-color: $text__color;
-$filter-options-title-icon-color-hover: $text__color;
-$filter-options-title-icon-size: 40px;
-$filter-options-title-position: $filter-options-item-padding-size;
+$filter-options-title-color             : $text__color !default;
+$filter-options-title-font-size         : $font-size__base !default;
+$filter-options-title-line-height       : 35px !default;
+$filter-options-title-font-weight       : $font-weight__bold !default;
+$filter-options-title-icon-color        : $text__color !default;
+$filter-options-title-icon-color-hover  : $text__color !default;
+$filter-options-title-icon-size         : 40px !default;
+$filter-options-title-position          : $filter-options-item-padding-size !default;
 
-
+$filter-current-label-color             : $text__color !default;
+$filter-current-label-font-weight       : $font-weight__bold !default;
+$filter-current-value-color             : $text__color__muted !default;
+$filter-current-value-font-weight       : $font-weight__regular !default;
+$filter-current-remove-color            : $text__color__muted !default;
+$filter-current-remove-color-active     : $text__color !default;
 
 // Desktop
 
-$filter-subtitle-font-size: $font-size__l;
-$filter-subtitle-font-weight: $font-weight__regular;
-$filter-subtitle-color: $text__color;
-$filter-subtitle-border: $filter-options-item-border;
-$filter-subtitle-padding: $filter-options-item-padding;
+$filter-subtitle-font-size              : $font-size__l !default;
+$filter-subtitle-font-weight            : $font-weight__regular !default;
+$filter-subtitle-color                  : $text__color !default;
+$filter-subtitle-border                 : $filter-options-item-border !default;
+$filter-subtitle-padding                : $filter-options-item-padding !default;
 
-// Mobile
 
 
 

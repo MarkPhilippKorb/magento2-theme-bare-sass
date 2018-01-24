@@ -13,7 +13,45 @@
 	.filter-options-item{
 		border-bottom: $filter-options-item-border;
 	}
-
+	
+	.filter-current-subtitle{
+		margin-bottom: $indent__xs;
+	}
+	
+	.filter-current{
+		border: $filter-options-item-border;
+		border-width: 1px 0;
+		.item{
+			padding-left: 18px;
+			position: relative;
+		}
+		.filter-label{
+			color: $filter-current-label-color;
+			font-weight: $filter-current-label-font-weight;
+			&:after{
+				content: ':';
+			}
+		}
+		.filter-value{
+			color: $filter-current-value-color;
+			font-weight: $filter-current-value-font-weight;
+		}
+		.action.remove{
+			position: absolute;
+			left: -8px;
+			top: -1px;
+			@include lib-icon-font(
+				$icon-remove,
+				$_icon-font-text-hide  : true,
+				$_icon-font-size       : 26px,
+				$_icon-font-color      : $filter-current-remove-color,
+				$_icon-font-color-hover: $filter-current-remove-color-active,
+				$_icon-font-position   : before,
+				$_icon-font-display    : block,
+				$_icon-font-line-height: 20px
+			);
+		}
+	}
 	.filter-options-title{
 		color: $filter-options-title-color;
 		font-size: $filter-options-title-font-size;
@@ -201,6 +239,58 @@
 				z-index: 10;
 			}
 		}
+		.filter-content {
+			position: relative;
+		}
+		.filter-current {
+			margin-top: $indent__s;
+			margin: 0 0 $indent__s 0;
+			padding: $indent__s;
+			position: relative;
+			.items {
+				display: none;
+			}
+			
+			
+			
+			&.active {
+				padding-bottom: 30px;
+				
+				.block-subtitle {
+				
+				}
+				
+				.items {
+					display: block;
+				}
+				
+				& + .block-actions {
+					display: block;
+				}
+			}
+			
+			& + .block-actions {
+				display: none;
+			}
+		}
+		.filter-current-subtitle {
+			position: relative;
+			z-index: 1;
+			
+			
+			&:before {
+				position: absolute;
+				right: 10px;
+				top: 10px;
+			}
+			
+			&:after {
+				@include lib-css(color, $text__color__muted);
+				content: ' (' attr(data-count) ')';
+				font-size: 14px;
+			}
+		}
+		
 	}
 	
 	.filter-subtitle {
@@ -221,55 +311,6 @@
 		}
 	}
 	
-	.filter .filter-current {
-		margin-top: $indent__s;
-		border: solid $border-color__base;
-		border-width: 1px 0;
-		margin: 0 0 $indent__s 0;
-		padding: $indent__s;
-		
-		.items {
-			display: none;
-		}
-		
-		&-subtitle {
-			position: relative;
-			z-index: 1;
-			
-			
-			&:before {
-				position: absolute;
-				right: 10px;
-				top: 10px;
-			}
-			
-			&:after {
-				@include lib-css(color, $text__color__muted);
-				content: ' (' attr(data-count) ')';
-				font-size: 14px;
-			}
-		}
-		
-		&.active {
-			padding-bottom: 30px;
-			
-			.block-subtitle {
-			
-			}
-			
-			.items {
-				display: block;
-			}
-			
-			& + .block-actions {
-				display: block;
-			}
-		}
-		
-		& + .block-actions {
-			display: none;
-		}
-	}
 	
 	.filter-no-options {
 		.filter-title {
@@ -287,10 +328,6 @@
 			}
 		}
 		
-		.filter-content {
-			margin-bottom: $indent__base;
-			position: relative;
-		}
 	}
 	
 	.page-with-filter {
@@ -326,7 +363,95 @@
 		margin: 0;
 	}
 	
+	.filter{
+		.filter-current{
+			padding: $filter-options-item-padding-size;
+			padding-bottom: 0;
+			border-bottom: 0;
+			
+		}
+		.filter-actions{
+			margin-bottom: $indent__base;
+			border-bottom: $filter-options-item-border;
+			padding: 0 $filter-options-item-padding-size $filter-options-item-padding-size $filter-options-item-padding-size;
+		}
+	}
+	
+	
+	
 	.page-layout-1column {
+		.filter-options-item {
+			border: 0;
+			display: inline-block;
+			margin-right: $indent__m;
+			position: relative;
+			
+			&.active {
+				z-index: 2;
+				
+				.filter-options-content {
+					visibility: visible;
+				}
+				
+				&:hover {
+					z-index: 3;
+				}
+				
+				&:after,
+				&:before {
+					@include lib-arrow(up, 8px, $color-black);
+					bottom: -1px;
+					content: '';
+					display: block;
+					left: $indent__xs;
+					position: absolute;
+					z-index: 3;
+				}
+				
+				&:after {
+					@include lib-css(border-bottom-color, $color-white);
+					margin-top: 2px;
+					z-index: 4;
+				}
+			}
+		}
+		
+		.filter-options-title {
+			padding: 0 $indent__base 0 0;
+			
+			&:after {
+				right: 2px;
+				top: 3px;
+				z-index: 3;
+			}
+		}
+		
+		.filter-options-content {
+			$_shadow: 0 3px 5px 0 rgba(50, 50, 50, .75);
+			
+			@include lib-css(background, $color-white);
+			@include lib-css(box-shadow, $_shadow, 1);
+			border: 1px solid $border-color__base;
+			padding: $indent__xs 0;
+			position: absolute;
+			top: 100%;
+			visibility: hidden;
+			width: 180px;
+			z-index: 2;
+			
+			.item {
+				margin: 0;
+				padding: $indent__xs;
+				
+				a {
+					margin-left: 0;
+				}
+				
+				&:hover {
+					background-color: $module__background-color;
+				}
+			}
+		}
 		.toolbar-products {
 			position: absolute;
 			top: 0;
@@ -342,133 +467,55 @@
 			position: relative;
 			z-index: 1;
 		}
+		.filter-content {
+			margin-top: $indent__s;
+		}
 		
+		.filter-subtitle {
+			display: none;
+		}
+		
+		.filter-current {
+			display: inline;
+			line-height: 35px;
+			
+			
+			.item,
+			.items {
+				display: inline;
+			}
+			
+			.item {
+				margin-right: $indent__m;
+				white-space: nowrap;
+			}
+			
+			.action.remove {
+				line-height: normal;
+			}
+		}
+		.filter-curren-subtitle {
+			@include lib-css(color, $text__color__muted);
+			display: inline;
+			font-size: $font-size__base;
+			font-weight: normal;
+			padding: 0;
+			
+			&:after {
+				content: ':';
+			}
+		}
+		.filter-actions {
+			display: inline;
+			white-space: nowrap;
+			
+			& ~ .filter-options {
+				margin-top: $indent__m;
+			}
+		}
 		.filter {
 			&.block {
 				border-top: 1px solid $border-color__base;
-			}
-			
-			&-content {
-				margin-top: $indent__s;
-			}
-			
-			&-subtitle {
-				display: none;
-			}
-			
-			&-options {
-				&-item {
-					border: 0;
-					display: inline-block;
-					margin-right: $indent__m;
-					position: relative;
-					
-					&.active {
-						z-index: 2;
-						
-						.filter-options-content {
-							visibility: visible;
-						}
-						
-						&:hover {
-							z-index: 3;
-						}
-						
-						&:after,
-						&:before {
-							@include lib-arrow(up, 8px, $color-black);
-							bottom: -1px;
-							content: '';
-							display: block;
-							left: $indent__xs;
-							position: absolute;
-							z-index: 3;
-						}
-						
-						&:after {
-							@include lib-css(border-bottom-color, $color-white);
-							margin-top: 2px;
-							z-index: 4;
-						}
-					}
-				}
-				
-				&-title {
-					padding: 0 $indent__base 0 0;
-					
-					&:after {
-						right: 2px;
-						top: 3px;
-						z-index: 3;
-					}
-				}
-				
-				&-content {
-					$_shadow: 0 3px 5px 0 rgba(50, 50, 50, .75);
-					
-					@include lib-css(background, $color-white);
-					@include lib-css(box-shadow, $_shadow, 1);
-					border: 1px solid $border-color__base;
-					padding: $indent__xs 0;
-					position: absolute;
-					top: 100%;
-					visibility: hidden;
-					width: 180px;
-					z-index: 2;
-					
-					.item {
-						margin: 0;
-						padding: $indent__xs;
-						
-						a {
-							margin-left: 0;
-						}
-						
-						&:hover {
-							background-color: $module__background-color;
-						}
-					}
-				}
-			}
-			
-			&-current {
-				display: inline;
-				line-height: 35px;
-				
-				&-subtitle {
-					@include lib-css(color, $text__color__muted);
-					display: inline;
-					font-size: $font-size__base;
-					font-weight: normal;
-					padding: 0;
-					
-					&:after {
-						content: ':';
-					}
-				}
-				
-				.item,
-				.items {
-					display: inline;
-				}
-				
-				.item {
-					margin-right: $indent__m;
-					white-space: nowrap;
-				}
-				
-				.action.remove {
-					line-height: normal;
-				}
-			}
-			
-			&-actions {
-				display: inline;
-				white-space: nowrap;
-				
-				& ~ .filter-options {
-					margin-top: $indent__m;
-				}
 			}
 		}
 	}
