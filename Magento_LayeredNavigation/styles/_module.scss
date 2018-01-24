@@ -1,5 +1,5 @@
 
-// RABABA
+// LayedNavigation
 
 .filter {
 	&-subtitle {
@@ -12,6 +12,7 @@
 	
 	.filter-options-item{
 		border-bottom: $filter-options-item-border;
+		cursor: pointer;
 	}
 	
 	.filter-current-subtitle{
