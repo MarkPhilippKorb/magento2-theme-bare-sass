@@ -417,22 +417,19 @@
 		}
 		
 		.filter-options-title {
-			padding: 0 $indent__base 0 0;
+			padding: 0 35px 0 0;
 			
 			&:after {
-				right: 2px;
-				top: 3px;
+				right: 0px;
 				z-index: 3;
 			}
 		}
 		
 		.filter-options-content {
-			$_shadow: 0 3px 5px 0 rgba(50, 50, 50, .75);
-			
-			@include lib-css(background, $color-white);
-			@include lib-css(box-shadow, $_shadow, 1);
+			@include lib-css(background, $filter-drop-down-background);
+			@include lib-css(box-shadow, $filter-drop-down-shadow);
 			border: 1px solid $border-color__base;
-			padding: $indent__xs 0;
+			padding: 0;
 			position: absolute;
 			top: 100%;
 			visibility: hidden;
@@ -451,6 +448,13 @@
 					background-color: $module__background-color;
 				}
 			}
+			.swatch-attribute{
+				margin-bottom: 0;
+			}
+			.swatch-attribute-options{
+				padding: $indent__s $indent__s $indent__xs $indent__s;
+				margin: 0;
+			}
 		}
 		.toolbar-products {
 			position: absolute;
@@ -467,17 +471,20 @@
 			position: relative;
 			z-index: 1;
 		}
-		.filter-content {
-			margin-top: $indent__s;
-		}
+
 		
 		.filter-subtitle {
 			display: none;
 		}
-		
+		.filter-current-subtitle{
+			margin: 0;
+			margin-right: $indent__s;
+		}
 		.filter-current {
 			display: inline;
 			line-height: 35px;
+			border: 0;
+			padding-left: 0;
 			
 			
 			.item,
@@ -505,17 +512,21 @@
 				content: ':';
 			}
 		}
-		.filter-actions {
-			display: inline;
-			white-space: nowrap;
-			
-			& ~ .filter-options {
-				margin-top: $indent__m;
-			}
-		}
 		.filter {
+			.filter-actions {
+				display: inline;
+				white-space: nowrap;
+				margin: 0;
+				border: 0;
+				padding: 0;
+				
+				& ~ .filter-options {
+					margin-top: $indent__xs;
+				}
+			}
 			&.block {
-				border-top: 1px solid $border-color__base;
+				border: $filter-options-item-border;
+				border-width: $filter-drop-down-border-width;
 			}
 		}
 	}
