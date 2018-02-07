@@ -19,7 +19,6 @@
 
 .abs-action-link-button {
     @include lib-button();
-    @include lib-link-as-button();
     @include lib-css(border-radius, $button__border-radius);
 }
 
@@ -955,7 +954,6 @@
         &.continue {
             border-radius: 3px;
             font-weight: $font-weight__bold;
-            @include lib-link-as-button();
             @include lib-button(
                 $_button-padding               : 7px 15px 7px 0,
                 $_button-icon-use              : true,

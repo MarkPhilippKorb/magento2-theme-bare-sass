@@ -159,7 +159,6 @@
 			left: 0;
 			top: 0;
 			strong{
-				@include lib-link-as-button();
 				@include lib-button(
 						$_button-padding               : 7px 15px 7px 15px,
 						$_button-icon-use              : true,

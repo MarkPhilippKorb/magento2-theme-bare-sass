@@ -120,7 +120,6 @@
 
         > .action {
             @extend button;
-            @include lib-link-as-button();
             margin-bottom: $indent__s;
             margin-right: $indent__s;
 	        appearance: none !important;

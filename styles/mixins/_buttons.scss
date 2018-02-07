@@ -70,7 +70,8 @@
     @include lib-font-size($_button-font-size);
     @include lib-line-height($_button-line-height);
     vertical-align: middle;
-
+	text-decoration: none;
+	
     @include _lib-button-icon (
         $_button-icon-use          : $_button-icon-use,
         $_icon-font-content        : $_button-font-content,
@@ -97,6 +98,7 @@
         );
         @include lib-css(border, $_button-border-active);
         @include lib-css(color, $_button-color-active);
+	    text-decoration: none;
     }
 
     &:hover {
@@ -107,7 +109,8 @@
             $_button-gradient-direction,
             $_button-gradient
         );
-        @include lib-css(border, $_button-border-hover);
+	    text-decoration: none;
+	    @include lib-css(border, $_button-border-hover);
         @include lib-css(color, $_button-color-hover);
     }
 
@@ -164,20 +167,6 @@
     @include lib-font-size($_button-s-font-size);
 }
 
-//
-//  Link as button
-//  ---------------------------------------------
-
-@mixin lib-link-as-button() {
-    @include lib-css(display, $button__display);
-    text-decoration: none;
-
-    &:hover,
-    &:active,
-    &:focus {
-        text-decoration: none;
-    }
-}
 
 //
 //  Button as link
