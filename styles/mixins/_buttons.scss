@@ -20,6 +20,7 @@
     $_button-color                       : $button__color,
     $_button-background                  : $button__background,
     $_button-border                      : $button__border,
+    $_button-border-radius               : $button__border-radius,
 
     $_button-color-hover                 : $button__hover__color,
     $_button-background-hover            : $button__hover__background,
@@ -58,6 +59,7 @@
         $_button-gradient-direction,
         $_button-gradient
     );
+    @include lib-css(border-radius, $_button-border-radius);
     @include lib-css(border, $_button-border);
     @include lib-css(color, $_button-color);
     @include lib-css(cursor, $_button-cursor);
