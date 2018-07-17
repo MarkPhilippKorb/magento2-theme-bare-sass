@@ -104,10 +104,10 @@
     }
 }
 
-@include max-screen($checkout-tooltip-breakpoint__screen-m) {
+@include max-screen(screen__m) {
     .field-tooltip {
         .field-tooltip-content {
-            @extend .abs-checkout-tooltip-content-position-top-mobile;
+	        @include abs-checkout-tooltip-content-position-top();
         }
     }
 }
