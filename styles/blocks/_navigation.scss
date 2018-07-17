@@ -18,18 +18,26 @@ $active-nav-indent: 54px;
 .nav-toggle {
     @include lib-icon-font(
         $icon-menu,
-        $_icon-font-size        : 28px,
+        $_icon-font-size        : 35px,
         $_icon-font-color       : $header-icons-color,
         $_icon-font-color-hover : $header-icons-color-hover
     );
-    @include lib-icon-text-hide();
+	span{
+		display: block;
+	}
     cursor: pointer;
     display: block;
-    font-size: 0;
     left: 15px;
     position: absolute;
     top: 15px;
     z-index: 14;
+	text-align: center;
+	line-height: 1;
+	font-size: $font-size__xs;
+	color: $header-icons-color;
+	&:hover, &:active{
+		color: $header-icons-color-hover;
+	}
 }
 
 //
