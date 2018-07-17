@@ -40,6 +40,21 @@ $active-nav-indent: 54px;
 	}
 }
 
+.nav-open{
+	.nav-toggle {
+		@include lib-icon-font(
+				$icon-remove,
+				$_icon-font-size        : 35px,
+				$_icon-font-color       : $header-icons-color,
+				$_icon-font-color-hover : $header-icons-color-hover
+		);
+		span, &:before{
+			position: relative;
+			z-index: 150;
+		}
+	}
+}
+
 //
 //  Mobile
 //  _____________________________________________
