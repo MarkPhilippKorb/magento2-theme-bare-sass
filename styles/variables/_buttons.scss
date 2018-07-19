@@ -88,6 +88,32 @@ $button-primary__active__color                : $button-primary__color !default;
 $button-primary__active__gradient-color-start : false !default;
 $button-primary__active__gradient-color-end   : false !default;
 
+//  CTA button
+$button-cta__line-height                      : false !default;
+$button-cta__width                            : false !default;
+$button-cta__margin                           : false !default;
+$button-cta__padding                          : $button__padding !default;
+$button-cta__gradient                         : false !default;
+$button-cta__gradient-direction               : false !default;
+
+$button-cta__background                       : $color-orange !default;
+$button-cta__border                           : 1px solid $color-orange !default;
+$button-cta__color                            : $color-white !default;
+$button-cta__gradient-color-start             : false !default;
+$button-cta__gradient-color-end               : false !default;
+
+$button-cta__hover__background                : $color-blue-dark !default;
+$button-cta__hover__border                    : 1px solid $color-red !default;
+$button-cta__hover__color                     : $button-cta__color !default;
+$button-cta__hover__gradient-color-start      : false !default;
+$button-cta__hover__gradient-color-end        : false !default;
+
+$button-cta__active__background               : $button-cta__hover__background !default;
+$button-cta__active__border                   : $button-cta__hover__border !default;
+$button-cta__active__color                    : $button-cta__color !default;
+$button-cta__active__gradient-color-start     : false !default;
+$button-cta__active__gradient-color-end       : false !default;
+
 //  Gradient button
 $button__gradient                             : false !default; // [true|false] - button has a gradient background
 $button__gradient-direction                   : false !default; // button gradient direction if button has a gradient background

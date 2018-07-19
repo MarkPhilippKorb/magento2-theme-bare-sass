@@ -310,6 +310,57 @@
 }
 
 //
+//  Button CTA
+//  ---------------------------------------------
+
+@mixin lib-button-cta(
+    $_button-line-height                 : $button-cta__line-height,
+    $_button-width                       : $button-cta__width,
+    $_button-margin                      : $button-cta__margin,
+    $_button-padding                     : $button-cta__padding,
+    $_button-color                       : $button-cta__color,
+    $_button-background                  : $button-cta__background,
+    $_button-border                      : $button-cta__border,
+    $_button-gradient-color-start        : $button-cta__gradient-color-start,
+    $_button-gradient-color-end          : $button-cta__gradient-color-end,
+    $_button-color-hover                 : $button-cta__hover__color,
+    $_button-background-hover            : $button-cta__hover__background,
+    $_button-border-hover                : $button-cta__hover__border,
+    $_button-gradient-color-start-hover  : $button-cta__hover__gradient-color-start,
+    $_button-gradient-color-end-hover    : $button-cta__hover__gradient-color-end,
+    $_button-color-active                : $button-cta__active__color,
+    $_button-background-active           : $button-cta__active__background,
+    $_button-border-active               : $button-cta__active__border,
+    $_button-gradient-color-start-active : $button-cta__active__gradient-color-start,
+    $_button-gradient-color-end-active   : $button-cta__active__gradient-color-end,
+    $_button-gradient                    : $button-cta__gradient,
+    $_button-gradient-direction          : $button-cta__gradient-direction
+) {
+    @include lib-button(
+            $_button-line-height                 : $_button-line-height,
+            $_button-width                       : $_button-width,
+            $_button-margin                      : $_button-margin,
+            $_button-padding                     : $_button-padding,
+            $_button-color                       : $_button-color,
+            $_button-background                  : $_button-background,
+            $_button-border                      : $_button-border,
+            $_button-color-hover                 : $_button-color-hover,
+            $_button-background-hover            : $_button-background-hover,
+            $_button-border-hover                : $_button-border-hover,
+            $_button-color-active                : $_button-color-active,
+            $_button-background-active           : $_button-background-active,
+            $_button-border-active               : $_button-border-active,
+            $_button-gradient                    : $_button-gradient,
+            $_button-gradient-direction          : $_button-gradient-direction,
+            $_button-gradient-color-start        : $_button-gradient-color-start,
+            $_button-gradient-color-end          : $_button-gradient-color-end,
+            $_button-gradient-color-start-hover  : $_button-gradient-color-start-hover,
+            $_button-gradient-color-end-hover    : $_button-gradient-color-end-hover,
+            $_button-gradient-color-start-active : $_button-gradient-color-start-active,
+            $_button-gradient-color-end-active   : $_button-gradient-color-end-active
+    );
+}
+//
 //  Button revert secondary color
 //  ---------------------------------------------
 
