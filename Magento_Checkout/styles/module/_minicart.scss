@@ -60,7 +60,7 @@
 
                 .action {
                     &.primary {
-                        @extend .abs-button-l;
+                        @include lib-button-cta();
                         display: block;
                         margin-bottom: 15px;
                         width: 100%;
