@@ -1,4 +1,29 @@
+// Setting generic button styles with mixins
 
-.action.primary {
+.action.primary, .btn.primary  {
     @include lib-button-primary();
 }
+
+.btn{
+    @include lib-button();
+
+}
+
+.btn.cta{
+    @include lib-button-cta();
+}
+
+.as-text{
+    @include lib-button-as-link();
+}
+
+.btn.large{
+    @include lib-button-l();
+
+}
+
+.btn.small{
+    @include lib-button-s();
+
+}
+
