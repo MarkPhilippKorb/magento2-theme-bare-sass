@@ -345,6 +345,7 @@
         }
 
         .action.tocart {
+            @include lib-button-cta();
             @extend .abs-button-l;
         }
     }

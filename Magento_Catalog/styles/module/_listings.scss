@@ -105,6 +105,7 @@
 	}
 	
 	.tocart {
+		@include lib-button-cta();
 		white-space: nowrap;
 	}
 }
