@@ -197,7 +197,8 @@
         text-align: center;
 
         .action.primary {
-            @extend .abs-button-l;
+            @include lib-button-cta();
+            @include lib-button-l();
             width: 100%;
         }
 

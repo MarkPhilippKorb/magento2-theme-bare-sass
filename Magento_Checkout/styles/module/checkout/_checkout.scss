@@ -8,6 +8,9 @@
 .checkout-container {
     @extend .abs-add-clearfix;
     @include lib-css(margin, 0 0 $checkout-wrapper__margin);
+    .action.primary{
+        @include lib-button-cta();
+    }
 }
 
 .opc-wrapper {
