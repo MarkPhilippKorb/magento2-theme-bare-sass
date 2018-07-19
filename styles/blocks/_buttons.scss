@@ -14,16 +14,16 @@
 }
 
 .as-text{
-    @include lib-button-as-link();
+    @extend .abs-action-button-as-link;
 }
 
 .btn.large{
-    @include lib-button-l();
+    @extend .abs-button-l;
 
 }
 
 .btn.small{
-    @include lib-button-s();
+    @extend .abs-button-s;
 
 }
 
