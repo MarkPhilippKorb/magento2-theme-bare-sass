@@ -376,9 +376,17 @@
                 width: auto;
             }
 
-            .item-actions {
-                td {
-                    text-align: right;
+            .item {
+                .col {
+                    &.item {
+                        padding-left: $indent__s;
+                    }
+                }
+
+                &-actions {
+                    td {
+                        text-align: right;
+                    }
                 }
             }
 
