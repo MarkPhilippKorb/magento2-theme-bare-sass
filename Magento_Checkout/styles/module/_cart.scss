@@ -150,26 +150,24 @@
         }
     }
 
-    .product {
-        &-item-photo {
-            display: block;
-            left: 0;
-            max-width: 60px;
-            padding: 0;
-            position: absolute;
-            top: 15px;
-            width: 100%;
-        }
+   .product-item-photo {
+        display: block;
+        left: 0;
+        max-width: 60px;
+        padding: 0;
+        position: absolute;
+        top: 15px;
+        width: 100%;
+    }
 
-        &-item-details {
-            white-space: normal;
-        }
+    .product-item-details {
+        white-space: normal;
+    }
 
-        &-item-name {
-            display: inline-block;
-            font-weight: $font-weight__regular;
-            margin-top: -6px;
-        }
+    .product-item-name {
+        display: inline-block;
+        font-weight: $font-weight__regular;
+        margin-top: -6px;
     }
 
     .gift-registry-name-label {
