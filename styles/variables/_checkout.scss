@@ -220,3 +220,24 @@ $checkout-payment-option-title-icon__color        : $minicart-icons-color;
 $checkout-payment-option-title-icon__hover__color : $primary__color;
 
 $checkout-payment-option-content__padding__xl     : $checkout-payment-method-content__padding__xl;
+
+
+//
+//  Cart Variables
+//  _____________________________________________
+
+//  Edit Icon
+$cart-item-edit-icon__content      		: $icon-settings;
+$cart-item-edit-icon__font-size    		: 28px;
+$cart-item-edit-icon__line-height  		: 28px;
+$cart-item-edit-icon__color 			: $color-gray-darker;
+$cart-item-edit-icon__hover__color 		: $active__color;
+$cart-item-edit-icon__active__color 	: $active__color;
+
+//  Edit Icon
+$cart-item-delte-icon__content      	: $icon-trash;
+$cart-item-delte-icon__font-size    	: 28px;
+$cart-item-delte-icon__line-height  	: 28px;
+$cart-item-delte-icon__color 			: $color-gray-darker;
+$cart-item-delte-icon__hover__color 	: $active__color;
+$cart-item-delte-icon__active__color	: $active__color;

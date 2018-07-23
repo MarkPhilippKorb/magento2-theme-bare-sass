@@ -119,10 +119,31 @@
         @extend .abs-add-clearfix;
 
         > .action {
-            @extend button;
             margin-bottom: $indent__s;
             margin-right: $indent__s;
 	        appearance: none !important;
+            &.action-edit{
+                @include lib-icon-font(
+                    $cart-item-edit-icon__content,
+                    $_icon-font-size         : $cart-item-edit-icon__font-size,
+                    $_icon-font-line-height  : $cart-item-edit-icon__line-height,
+                    $_icon-font-text-hide    : true,
+                    $_icon-font-color        : $cart-item-edit-icon__color,
+                    $_icon-font-color-hover  : $cart-item-edit-icon__hover__color,
+                    $_icon-font-color-active : $cart-item-edit-icon__active__color
+                );
+            }
+            &.action-delete{
+                @include lib-icon-font(
+                    $cart-item-delte-icon__content,
+                    $_icon-font-size         : $cart-item-delte-icon__font-size,
+                    $_icon-font-line-height  : $cart-item-delte-icon__line-height,
+                    $_icon-font-text-hide    : true,
+                    $_icon-font-color        : $cart-item-delte-icon__color,
+                    $_icon-font-color-hover  : $cart-item-delte-icon__hover__color,
+                    $_icon-font-color-active : $cart-item-delte-icon__active__color
+                );
+            }
             &:last-child {
                 margin-right: 0;
             }
@@ -397,7 +418,7 @@
             .item-actions {
                 .actions-toolbar {
                     @extend .abs-reset-left-margin-desktop;
-                    text-align: left;
+                    text-align: right;
                 }
             }
         }
