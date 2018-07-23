@@ -36,7 +36,7 @@
             .methods {
                 .field {
                     > .label {
-                        display: inline;
+                        display: none;
                     }
                 }
             }
@@ -46,13 +46,6 @@
             > .legend,
             > .legend + br {
                 @extend .abs-no-display;
-            }
-        }
-    }
-    .actions-toolbar {
-        > .primary {
-            button {
-                @extend .abs-revert-secondary-color;
             }
         }
     }
