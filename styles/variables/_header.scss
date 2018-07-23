@@ -31,7 +31,11 @@ $search-icon-color-hover            : $header-icons-color !default;
 //  Mini Cart
 //  _____________________________________________
 
-$minicart__border-color       : $module-dark__border-color;
-$minicart__padding-horizontal : $indent__base;
+$minicart__border-color       	: $module-dark__border-color;
+$minicart__padding-horizontal 	: $indent__base;
 
-$minicart-qty__height         : 24px;
+$minicart-qty__height         	: 24px;
+
+$minicart__icon-color       	: $color-gray-dark;
+$minicart__icon-color-hover    	: $active__color;
+$minicart__icon-color-active    : $active__color;
