@@ -166,8 +166,10 @@
 
     .product-item-name {
         display: inline-block;
-        font-weight: $font-weight__regular;
+        font-weight: $font-weight__bold;
+        font-size: $font-size__l;
         margin-top: -6px;
+        margin-bottom: 0;
     }
 
     .gift-registry-name-label {
@@ -374,17 +376,9 @@
                 width: auto;
             }
 
-            .item {
-                .col {
-                    &.item {
-                        padding: 27px 8px $indent__s;
-                    }
-                }
-
-                &-actions {
-                    td {
-                        text-align: right;
-                    }
+            .item-actions {
+                td {
+                    text-align: right;
                 }
             }
 
