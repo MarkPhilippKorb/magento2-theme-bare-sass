@@ -7,6 +7,15 @@
                     <argument translate="true" name="text" xsi:type="string"><![CDATA[<script type="text/x-magento-init">{"*":{"js/main":{}}}</script>]]></argument>
                 </arguments>
             </block>
-    </referenceContainer>
+        </referenceContainer>
+
+        <referenceContainer name="header.panel">
+            <block class="Magento\Framework\View\Element\Html\Links" name="header.links">
+                <arguments>
+                    <argument name="css_class" xsi:type="string">header links</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+
     </body>
 </page>

@@ -493,3 +493,117 @@
         }
     }
 }
+
+.header.panel{
+
+    .customer-welcome{
+        position: relative;
+        li.greet.welcome{
+            display: none;
+        }
+        .customer-menu{
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 10px;
+            z-index: 1000;
+            background: $color-white;
+            border: 1px solid $border-color__base;
+            color: $text__color;
+            width: 225px;
+
+            &:after,
+            &:before {
+                bottom: 100%;
+                right: 19px;
+                border: solid transparent;
+                content: " ";
+                height: 0;
+                width: 0;
+                position: absolute;
+                pointer-events: none;
+            }
+            &:after {
+                border-color: transparent;
+                border-bottom-color: $color-white;
+                border-width: 6px;
+                margin-left: -6px;
+            }
+
+            &:before {
+                border-color: transparent;
+                border-bottom-color: $border-color__base;
+                border-width: 7px;
+                margin-left: -7px;
+            }
+            .header.links {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: block;
+                li{
+                    margin: 0;
+                    padding: 0;
+                }
+                a{
+                    display: block;
+                    margin: 0;
+                    padding: 5px 10px;
+                    text-decoration: none;
+                    color: $account-menu__link-color;
+                    &:hover, &:focus{
+                        color: $account-menu__links-hover-color;
+                        background: $account-menu__hover-background-color;
+                    }
+                }
+            }
+        }
+        &.active{
+            .customer-menu{
+                display: block;
+            }
+        }
+        .customer-name{
+            > div{
+                display: inline-block;
+            }
+            @include lib-icon-font(
+                    $_icon-font-content     : $icon-account,
+                    $_icon-font-size        : 29px,
+                    $_icon-font-line-height : 33px,
+                    $_icon-font-position    : before,
+                    $_icon-font-text-hide   : false,
+                    $_icon-font-display     : block
+            );
+            &:after{
+                margin-left: 5px;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        .header.links > li a{
+            border: 0;
+            padding: 0 5px;
+            &:after{
+                display: none;
+            }
+        }
+
+    }
+}
+
+
+// Customer account
+@include max-screen($screen__m) {
+    .nav-sections .header.links .customer-welcome{
+        display: none;
+    }
+}
+
+.header.panel .header.links {
+    .customer-welcome + .authorization-link {
+        display: none;
+    }
+}
