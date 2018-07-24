@@ -34,9 +34,7 @@
         }
 
         .title {
-            &:after {
-                content: ': ';
-            }
+            display: none;
         }
     }
 
@@ -51,13 +49,7 @@
     }
 
     .item-options {
-        dt {
-            margin: 0;
-        }
-
-        dd {
-            margin: 0 0 15px;
-        }
+        @extend .abs-product-options-list;
 
         &.links {
             dt {
