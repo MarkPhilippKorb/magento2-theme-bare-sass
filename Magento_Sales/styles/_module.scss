@@ -65,6 +65,13 @@
             }
         }
     }
+    .actions-toolbar{
+        border-top: $border-width__base solid $border-color__base;
+        padding-top: 4px;
+        .action{
+            @extend .abs-action-link-button;
+        }
+    }
 }
 
 .order-pager-wrapper {
