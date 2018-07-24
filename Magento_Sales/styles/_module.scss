@@ -335,9 +335,16 @@
     }
 
     .order-actions-toolbar {
-        .action.print {
+        .action {
             display: block;
             float: right;
+            margin-left: $indent__base;
+            &.order{
+                @include lib-button-cta();
+            }
+            &.print{
+                @include lib-button();
+            }
         }
     }
 
