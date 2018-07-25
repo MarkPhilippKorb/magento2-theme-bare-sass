@@ -40,7 +40,7 @@ $blocks-remove-button__active-color : $active__color !default;
 $button__font-family                          : $font-family__base !default;
 $button__font-size                            : $font-size__base !default;
 $button__font-weight                          : $font-weight__bold !default;
-$button__line-height                          : $font-size__base + 2 !default;
+$button__line-height                          : false !default;
 $button__margin                               : 0 !default;
 $button__padding                              : 7px 15px !default; // is set up to false when buttons don't depend on side paddings or have fixed width
 $button__width                                : false !default; // is set up to false when buttons depend on side paddings or to fixed value when needed
