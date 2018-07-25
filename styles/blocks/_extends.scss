@@ -242,9 +242,9 @@
         $_icon-font-size         : 26px,
         $_icon-font-line-height  : 15px,
         $_icon-font-text-hide    : true,
-        $_icon-font-color        : $color-gray-dark,
-        $_icon-font-color-hover  : $color-gray-dark,
-        $_icon-font-color-active : $color-gray-dark
+        $_icon-font-color        : $blocks-remove-button__color,
+        $_icon-font-color-hover  : $blocks-remove-button__hover-color,
+        $_icon-font-color-active : $blocks-remove-button__active-color
     );
 }
 

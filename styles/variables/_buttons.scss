@@ -24,6 +24,15 @@ $focus__box-shadow              : 0 0 3px 1px $focus__color !default;
 
 
 //
+//  Remove button for blocks
+//  ---------------------------------------------
+
+$blocks-remove-button__color		: $text__color !default;
+$blocks-remove-button__hover-color  : $active__color !default;
+$blocks-remove-button__active-color : $active__color !default;
+
+
+//
 //  Buttons
 //  ---------------------------------------------
 
