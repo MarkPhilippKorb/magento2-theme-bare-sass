@@ -121,7 +121,13 @@
         }
     }
 
-    .product {
+    .product-item-details {
+        .options{
+            .product.options.list{
+                overflow: hidden;
+                @extend .abs-product-options-list;
+            }
+        }
         .actions {
             float: right;
             margin: -24px 0 0;
