@@ -138,7 +138,6 @@
     .product-item {
         .checkbox {
             position: relative;
-            top: 2px;
             vertical-align: baseline;
         }
 
@@ -153,6 +152,7 @@
 
     .product-item-name {
         display: inline-block;
+	  	margin-left: 5px;
     }
 
     .actions-toolbar {
